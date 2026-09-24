@@ -1,0 +1,6002 @@
+[
+  {
+    "id": 1,
+    "word": "Lion",
+    "forbidden": [
+      "animal",
+      "savane",
+      "roi",
+      "Afrique",
+      "félin"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 2,
+    "word": "Lion en peluche",
+    "forbidden": [
+      "savane",
+      "roi",
+      "Afrique",
+      "félin",
+      "animal"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 3,
+    "word": "Lion au zoo",
+    "forbidden": [
+      "roi",
+      "Afrique",
+      "félin",
+      "animal",
+      "savane"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 4,
+    "word": "Lion en dessin animé",
+    "forbidden": [
+      "Afrique",
+      "félin",
+      "animal",
+      "savane",
+      "roi"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 5,
+    "word": "Lion dans un film",
+    "forbidden": [
+      "félin",
+      "animal",
+      "savane",
+      "roi",
+      "Afrique"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 6,
+    "word": "Pizza",
+    "forbidden": [
+      "Italie",
+      "pâte",
+      "fromage",
+      "tomate",
+      "restaurant"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 7,
+    "word": "Pizza en peluche",
+    "forbidden": [
+      "pâte",
+      "fromage",
+      "tomate",
+      "restaurant",
+      "Italie"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 8,
+    "word": "Pizza au zoo",
+    "forbidden": [
+      "fromage",
+      "tomate",
+      "restaurant",
+      "Italie",
+      "pâte"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 9,
+    "word": "Pizza en dessin animé",
+    "forbidden": [
+      "tomate",
+      "restaurant",
+      "Italie",
+      "pâte",
+      "fromage"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 10,
+    "word": "Pizza dans un film",
+    "forbidden": [
+      "restaurant",
+      "Italie",
+      "pâte",
+      "fromage",
+      "tomate"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 11,
+    "word": "Football",
+    "forbidden": [
+      "ballon",
+      "sport",
+      "équipe",
+      "but",
+      "terrain"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 12,
+    "word": "Football en peluche",
+    "forbidden": [
+      "sport",
+      "équipe",
+      "but",
+      "terrain",
+      "ballon"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 13,
+    "word": "Football au zoo",
+    "forbidden": [
+      "équipe",
+      "but",
+      "terrain",
+      "ballon",
+      "sport"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 14,
+    "word": "Football en dessin animé",
+    "forbidden": [
+      "but",
+      "terrain",
+      "ballon",
+      "sport",
+      "équipe"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 15,
+    "word": "Football dans un film",
+    "forbidden": [
+      "terrain",
+      "ballon",
+      "sport",
+      "équipe",
+      "but"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 16,
+    "word": "Cinéma",
+    "forbidden": [
+      "film",
+      "acteur",
+      "écran",
+      "salle",
+      "Hollywood"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 17,
+    "word": "Cinéma en peluche",
+    "forbidden": [
+      "acteur",
+      "écran",
+      "salle",
+      "Hollywood",
+      "film"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 18,
+    "word": "Cinéma au zoo",
+    "forbidden": [
+      "écran",
+      "salle",
+      "Hollywood",
+      "film",
+      "acteur"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 19,
+    "word": "Cinéma en dessin animé",
+    "forbidden": [
+      "salle",
+      "Hollywood",
+      "film",
+      "acteur",
+      "écran"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 20,
+    "word": "Cinéma dans un film",
+    "forbidden": [
+      "Hollywood",
+      "acteur",
+      "écran",
+      "salle",
+      "jouet"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 21,
+    "word": "Avion",
+    "forbidden": [
+      "aéroport",
+      "pilote",
+      "voler",
+      "voyage",
+      "ailes"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 22,
+    "word": "Avion en peluche",
+    "forbidden": [
+      "pilote",
+      "voler",
+      "voyage",
+      "ailes",
+      "aéroport"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 23,
+    "word": "Avion au zoo",
+    "forbidden": [
+      "voler",
+      "voyage",
+      "ailes",
+      "aéroport",
+      "pilote"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 24,
+    "word": "Avion en dessin animé",
+    "forbidden": [
+      "voyage",
+      "ailes",
+      "aéroport",
+      "pilote",
+      "voler"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 25,
+    "word": "Avion dans un film",
+    "forbidden": [
+      "ailes",
+      "aéroport",
+      "pilote",
+      "voler",
+      "voyage"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 26,
+    "word": "Plage",
+    "forbidden": [
+      "sable",
+      "mer",
+      "soleil",
+      "vacances",
+      "océan"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 27,
+    "word": "Plage en peluche",
+    "forbidden": [
+      "mer",
+      "soleil",
+      "vacances",
+      "océan",
+      "sable"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 28,
+    "word": "Plage au zoo",
+    "forbidden": [
+      "soleil",
+      "vacances",
+      "océan",
+      "sable",
+      "mer"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 29,
+    "word": "Plage en dessin animé",
+    "forbidden": [
+      "vacances",
+      "océan",
+      "sable",
+      "mer",
+      "soleil"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 30,
+    "word": "Plage dans un film",
+    "forbidden": [
+      "océan",
+      "sable",
+      "mer",
+      "soleil",
+      "vacances"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 31,
+    "word": "Ordinateur",
+    "forbidden": [
+      "écran",
+      "clavier",
+      "souris",
+      "internet",
+      "PC"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 32,
+    "word": "Ordinateur en peluche",
+    "forbidden": [
+      "clavier",
+      "souris",
+      "internet",
+      "PC",
+      "écran"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 33,
+    "word": "Ordinateur au zoo",
+    "forbidden": [
+      "souris",
+      "internet",
+      "PC",
+      "écran",
+      "clavier"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 34,
+    "word": "Ordinateur en dessin animé",
+    "forbidden": [
+      "internet",
+      "PC",
+      "écran",
+      "clavier",
+      "souris"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 35,
+    "word": "Ordinateur dans un film",
+    "forbidden": [
+      "PC",
+      "écran",
+      "clavier",
+      "souris",
+      "internet"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 36,
+    "word": "Téléphone",
+    "forbidden": [
+      "appel",
+      "portable",
+      "écran",
+      "SMS",
+      "smartphone"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 37,
+    "word": "Téléphone en peluche",
+    "forbidden": [
+      "portable",
+      "écran",
+      "SMS",
+      "smartphone",
+      "appel"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 38,
+    "word": "Téléphone au zoo",
+    "forbidden": [
+      "écran",
+      "SMS",
+      "smartphone",
+      "appel",
+      "portable"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 39,
+    "word": "Téléphone en dessin animé",
+    "forbidden": [
+      "SMS",
+      "smartphone",
+      "appel",
+      "portable",
+      "écran"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 40,
+    "word": "Téléphone dans un film",
+    "forbidden": [
+      "smartphone",
+      "appel",
+      "portable",
+      "écran",
+      "SMS"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 41,
+    "word": "Chocolat",
+    "forbidden": [
+      "cacao",
+      "sucré",
+      "tablette",
+      "bonbon",
+      "dessert"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 42,
+    "word": "Chocolat en peluche",
+    "forbidden": [
+      "sucré",
+      "tablette",
+      "bonbon",
+      "dessert",
+      "cacao"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 43,
+    "word": "Chocolat au zoo",
+    "forbidden": [
+      "tablette",
+      "bonbon",
+      "dessert",
+      "cacao",
+      "sucré"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 44,
+    "word": "Chocolat en dessin animé",
+    "forbidden": [
+      "bonbon",
+      "dessert",
+      "cacao",
+      "sucré",
+      "tablette"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 45,
+    "word": "Chocolat dans un film",
+    "forbidden": [
+      "dessert",
+      "cacao",
+      "sucré",
+      "tablette",
+      "bonbon"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 46,
+    "word": "Guitare",
+    "forbidden": [
+      "musique",
+      "cordes",
+      "instrument",
+      "jouer",
+      "concert"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 47,
+    "word": "Guitare en peluche",
+    "forbidden": [
+      "cordes",
+      "instrument",
+      "jouer",
+      "concert",
+      "musique"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 48,
+    "word": "Guitare au zoo",
+    "forbidden": [
+      "instrument",
+      "jouer",
+      "concert",
+      "musique",
+      "cordes"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 49,
+    "word": "Guitare en dessin animé",
+    "forbidden": [
+      "jouer",
+      "concert",
+      "musique",
+      "cordes",
+      "instrument"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 50,
+    "word": "Guitare dans un film",
+    "forbidden": [
+      "concert",
+      "musique",
+      "cordes",
+      "instrument",
+      "jouer"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 51,
+    "word": "Paris",
+    "forbidden": [
+      "France",
+      "capitale",
+      "Eiffel",
+      "Louvre",
+      "Seine"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 52,
+    "word": "Paris en peluche",
+    "forbidden": [
+      "capitale",
+      "Eiffel",
+      "Louvre",
+      "Seine",
+      "France"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 53,
+    "word": "Paris au zoo",
+    "forbidden": [
+      "Eiffel",
+      "Louvre",
+      "Seine",
+      "France",
+      "capitale"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 54,
+    "word": "Paris en dessin animé",
+    "forbidden": [
+      "Louvre",
+      "Seine",
+      "France",
+      "capitale",
+      "Eiffel"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 55,
+    "word": "Paris dans un film",
+    "forbidden": [
+      "Seine",
+      "France",
+      "capitale",
+      "Eiffel",
+      "Louvre"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 56,
+    "word": "Montagne",
+    "forbidden": [
+      "ski",
+      "neige",
+      "sommet",
+      "alpes",
+      "randonnée"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 57,
+    "word": "Montagne en peluche",
+    "forbidden": [
+      "neige",
+      "sommet",
+      "alpes",
+      "randonnée",
+      "ski"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 58,
+    "word": "Montagne au zoo",
+    "forbidden": [
+      "sommet",
+      "alpes",
+      "randonnée",
+      "ski",
+      "neige"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 59,
+    "word": "Montagne en dessin animé",
+    "forbidden": [
+      "alpes",
+      "randonnée",
+      "ski",
+      "neige",
+      "sommet"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 60,
+    "word": "Montagne dans un film",
+    "forbidden": [
+      "randonnée",
+      "ski",
+      "neige",
+      "sommet",
+      "alpes"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 61,
+    "word": "Piscine",
+    "forbidden": [
+      "eau",
+      "nager",
+      "bassin",
+      "maillot",
+      "plongeon"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 62,
+    "word": "Piscine en peluche",
+    "forbidden": [
+      "nager",
+      "bassin",
+      "maillot",
+      "plongeon",
+      "eau"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 63,
+    "word": "Piscine au zoo",
+    "forbidden": [
+      "bassin",
+      "maillot",
+      "plongeon",
+      "eau",
+      "nager"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 64,
+    "word": "Piscine en dessin animé",
+    "forbidden": [
+      "maillot",
+      "plongeon",
+      "eau",
+      "nager",
+      "bassin"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 65,
+    "word": "Piscine dans un film",
+    "forbidden": [
+      "plongeon",
+      "eau",
+      "nager",
+      "bassin",
+      "maillot"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 66,
+    "word": "Voiture",
+    "forbidden": [
+      "route",
+      "moteur",
+      "roues",
+      "conduire",
+      "garage"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 67,
+    "word": "Voiture en peluche",
+    "forbidden": [
+      "moteur",
+      "roues",
+      "conduire",
+      "garage",
+      "route"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 68,
+    "word": "Voiture au zoo",
+    "forbidden": [
+      "roues",
+      "conduire",
+      "garage",
+      "route",
+      "moteur"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 69,
+    "word": "Voiture en dessin animé",
+    "forbidden": [
+      "conduire",
+      "garage",
+      "route",
+      "moteur",
+      "roues"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 70,
+    "word": "Voiture dans un film",
+    "forbidden": [
+      "garage",
+      "route",
+      "moteur",
+      "roues",
+      "conduire"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 71,
+    "word": "Train",
+    "forbidden": [
+      "gare",
+      "rails",
+      "wagon",
+      "SNCF",
+      "voyage"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 72,
+    "word": "Train en peluche",
+    "forbidden": [
+      "rails",
+      "wagon",
+      "SNCF",
+      "voyage",
+      "gare"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 73,
+    "word": "Train au zoo",
+    "forbidden": [
+      "wagon",
+      "SNCF",
+      "voyage",
+      "gare",
+      "rails"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 74,
+    "word": "Train en dessin animé",
+    "forbidden": [
+      "SNCF",
+      "voyage",
+      "gare",
+      "rails",
+      "wagon"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 75,
+    "word": "Train dans un film",
+    "forbidden": [
+      "voyage",
+      "gare",
+      "rails",
+      "wagon",
+      "SNCF"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 76,
+    "word": "Restaurant",
+    "forbidden": [
+      "manger",
+      "menu",
+      "serveur",
+      "table",
+      "cuisine"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 77,
+    "word": "Restaurant en peluche",
+    "forbidden": [
+      "menu",
+      "serveur",
+      "table",
+      "cuisine",
+      "manger"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 78,
+    "word": "Restaurant au zoo",
+    "forbidden": [
+      "serveur",
+      "table",
+      "cuisine",
+      "manger",
+      "menu"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 79,
+    "word": "Restaurant en dessin animé",
+    "forbidden": [
+      "table",
+      "cuisine",
+      "manger",
+      "menu",
+      "serveur"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 80,
+    "word": "Restaurant dans un film",
+    "forbidden": [
+      "cuisine",
+      "manger",
+      "menu",
+      "serveur",
+      "table"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 81,
+    "word": "Anniversaire",
+    "forbidden": [
+      "gâteau",
+      "cadeau",
+      "bougies",
+      "fête",
+      "âge"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 82,
+    "word": "Anniversaire en peluche",
+    "forbidden": [
+      "cadeau",
+      "bougies",
+      "fête",
+      "âge",
+      "gâteau"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 83,
+    "word": "Anniversaire au zoo",
+    "forbidden": [
+      "bougies",
+      "fête",
+      "âge",
+      "gâteau",
+      "cadeau"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 84,
+    "word": "Anniversaire en dessin animé",
+    "forbidden": [
+      "fête",
+      "âge",
+      "gâteau",
+      "cadeau",
+      "bougies"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 85,
+    "word": "Anniversaire dans un film",
+    "forbidden": [
+      "âge",
+      "gâteau",
+      "cadeau",
+      "bougies",
+      "fête"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 86,
+    "word": "Mariage",
+    "forbidden": [
+      "mariée",
+      "robe",
+      "amour",
+      "cérémonie",
+      "époux"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 87,
+    "word": "Mariage en peluche",
+    "forbidden": [
+      "robe",
+      "amour",
+      "cérémonie",
+      "époux",
+      "mariée"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 88,
+    "word": "Mariage au zoo",
+    "forbidden": [
+      "amour",
+      "cérémonie",
+      "époux",
+      "mariée",
+      "robe"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 89,
+    "word": "Mariage en dessin animé",
+    "forbidden": [
+      "cérémonie",
+      "époux",
+      "mariée",
+      "robe",
+      "amour"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 90,
+    "word": "Mariage dans un film",
+    "forbidden": [
+      "époux",
+      "mariée",
+      "robe",
+      "amour",
+      "cérémonie"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 91,
+    "word": "École",
+    "forbidden": [
+      "élève",
+      "professeur",
+      "classe",
+      "cours",
+      "cartable"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 92,
+    "word": "École en peluche",
+    "forbidden": [
+      "professeur",
+      "classe",
+      "cours",
+      "cartable",
+      "élève"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 93,
+    "word": "École au zoo",
+    "forbidden": [
+      "classe",
+      "cours",
+      "cartable",
+      "élève",
+      "professeur"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 94,
+    "word": "École en dessin animé",
+    "forbidden": [
+      "cours",
+      "cartable",
+      "élève",
+      "professeur",
+      "classe"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 95,
+    "word": "École dans un film",
+    "forbidden": [
+      "cartable",
+      "élève",
+      "professeur",
+      "classe",
+      "cours"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 96,
+    "word": "Hôpital",
+    "forbidden": [
+      "médecin",
+      "patient",
+      "soins",
+      "urgence",
+      "infirmière"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 97,
+    "word": "Hôpital en peluche",
+    "forbidden": [
+      "patient",
+      "soins",
+      "urgence",
+      "infirmière",
+      "médecin"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 98,
+    "word": "Hôpital au zoo",
+    "forbidden": [
+      "soins",
+      "urgence",
+      "infirmière",
+      "médecin",
+      "patient"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 99,
+    "word": "Hôpital en dessin animé",
+    "forbidden": [
+      "urgence",
+      "infirmière",
+      "médecin",
+      "patient",
+      "soins"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 100,
+    "word": "Hôpital dans un film",
+    "forbidden": [
+      "infirmière",
+      "médecin",
+      "patient",
+      "soins",
+      "urgence"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 101,
+    "word": "Chien",
+    "forbidden": [
+      "animal",
+      "aboyer",
+      "maître",
+      "laisse",
+      "jouet"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 102,
+    "word": "Chien en peluche",
+    "forbidden": [
+      "aboyer",
+      "maître",
+      "laisse",
+      "animal",
+      "jouet"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 103,
+    "word": "Chien au zoo",
+    "forbidden": [
+      "maître",
+      "laisse",
+      "animal",
+      "aboyer",
+      "jouet"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 104,
+    "word": "Chien en dessin animé",
+    "forbidden": [
+      "laisse",
+      "animal",
+      "aboyer",
+      "maître",
+      "jouet"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 105,
+    "word": "Chien dans un film",
+    "forbidden": [
+      "laisse",
+      "animal",
+      "aboyer",
+      "maître",
+      "jouet"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 106,
+    "word": "Chat",
+    "forbidden": [
+      "animal",
+      "miaou",
+      "félin",
+      "croquettes",
+      "griffes"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 107,
+    "word": "Chat en peluche",
+    "forbidden": [
+      "miaou",
+      "félin",
+      "croquettes",
+      "griffes",
+      "animal"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 108,
+    "word": "Chat au zoo",
+    "forbidden": [
+      "félin",
+      "croquettes",
+      "griffes",
+      "animal",
+      "miaou"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 109,
+    "word": "Chat en dessin animé",
+    "forbidden": [
+      "croquettes",
+      "griffes",
+      "animal",
+      "miaou",
+      "félin"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 110,
+    "word": "Chat dans un film",
+    "forbidden": [
+      "griffes",
+      "animal",
+      "miaou",
+      "félin",
+      "croquettes"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 111,
+    "word": "Éléphant",
+    "forbidden": [
+      "animal",
+      "trompe",
+      "Afrique",
+      "grand",
+      "oreilles"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 112,
+    "word": "Éléphant en peluche",
+    "forbidden": [
+      "trompe",
+      "Afrique",
+      "grand",
+      "oreilles",
+      "animal"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 113,
+    "word": "Éléphant au zoo",
+    "forbidden": [
+      "Afrique",
+      "grand",
+      "oreilles",
+      "animal",
+      "trompe"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 114,
+    "word": "Éléphant en dessin animé",
+    "forbidden": [
+      "grand",
+      "oreilles",
+      "animal",
+      "trompe",
+      "Afrique"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 115,
+    "word": "Éléphant dans un film",
+    "forbidden": [
+      "oreilles",
+      "animal",
+      "trompe",
+      "Afrique",
+      "grand"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 116,
+    "word": "Girafe",
+    "forbidden": [
+      "animal",
+      "cou",
+      "Afrique",
+      "taches",
+      "haute"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 117,
+    "word": "Girafe en peluche",
+    "forbidden": [
+      "cou",
+      "Afrique",
+      "taches",
+      "haute",
+      "animal"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 118,
+    "word": "Girafe au zoo",
+    "forbidden": [
+      "Afrique",
+      "taches",
+      "haute",
+      "animal",
+      "cou"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 119,
+    "word": "Girafe en dessin animé",
+    "forbidden": [
+      "taches",
+      "haute",
+      "animal",
+      "cou",
+      "Afrique"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 120,
+    "word": "Girafe dans un film",
+    "forbidden": [
+      "haute",
+      "animal",
+      "cou",
+      "Afrique",
+      "taches"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 121,
+    "word": "Tigre",
+    "forbidden": [
+      "animal",
+      "rayures",
+      "félin",
+      "orange",
+      "jungle"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 122,
+    "word": "Tigre en peluche",
+    "forbidden": [
+      "rayures",
+      "félin",
+      "orange",
+      "jungle",
+      "animal"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 123,
+    "word": "Tigre au zoo",
+    "forbidden": [
+      "félin",
+      "orange",
+      "jungle",
+      "animal",
+      "rayures"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 124,
+    "word": "Tigre en dessin animé",
+    "forbidden": [
+      "orange",
+      "jungle",
+      "animal",
+      "rayures",
+      "félin"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 125,
+    "word": "Tigre dans un film",
+    "forbidden": [
+      "jungle",
+      "animal",
+      "rayures",
+      "félin",
+      "orange"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 126,
+    "word": "Dauphin",
+    "forbidden": [
+      "animal",
+      "mer",
+      "nage",
+      "mammifère",
+      "océan"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 127,
+    "word": "Dauphin en peluche",
+    "forbidden": [
+      "mer",
+      "nage",
+      "mammifère",
+      "océan",
+      "animal"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 128,
+    "word": "Dauphin au zoo",
+    "forbidden": [
+      "nage",
+      "mammifère",
+      "océan",
+      "animal",
+      "mer"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 129,
+    "word": "Dauphin en dessin animé",
+    "forbidden": [
+      "mammifère",
+      "océan",
+      "animal",
+      "mer",
+      "nage"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 130,
+    "word": "Dauphin dans un film",
+    "forbidden": [
+      "océan",
+      "animal",
+      "mer",
+      "nage",
+      "mammifère"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 131,
+    "word": "Panda",
+    "forbidden": [
+      "animal",
+      "Chine",
+      "bambou",
+      "ours",
+      "noir"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 132,
+    "word": "Panda en peluche",
+    "forbidden": [
+      "Chine",
+      "bambou",
+      "ours",
+      "noir",
+      "animal"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 133,
+    "word": "Panda au zoo",
+    "forbidden": [
+      "bambou",
+      "ours",
+      "noir",
+      "animal",
+      "Chine"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 134,
+    "word": "Panda en dessin animé",
+    "forbidden": [
+      "ours",
+      "noir",
+      "animal",
+      "Chine",
+      "bambou"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 135,
+    "word": "Panda dans un film",
+    "forbidden": [
+      "noir",
+      "animal",
+      "Chine",
+      "bambou",
+      "ours"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 136,
+    "word": "Banane",
+    "forbidden": [
+      "fruit",
+      "jaune",
+      "peau",
+      "manger",
+      "régime"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 137,
+    "word": "Banane en peluche",
+    "forbidden": [
+      "jaune",
+      "peau",
+      "manger",
+      "régime",
+      "fruit"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 138,
+    "word": "Banane au zoo",
+    "forbidden": [
+      "peau",
+      "manger",
+      "régime",
+      "fruit",
+      "jaune"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 139,
+    "word": "Banane en dessin animé",
+    "forbidden": [
+      "manger",
+      "régime",
+      "fruit",
+      "jaune",
+      "peau"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 140,
+    "word": "Banane dans un film",
+    "forbidden": [
+      "régime",
+      "fruit",
+      "jaune",
+      "peau",
+      "manger"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 141,
+    "word": "Pomme",
+    "forbidden": [
+      "fruit",
+      "rouge",
+      "verger",
+      "croquer",
+      "jus"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 142,
+    "word": "Pomme en peluche",
+    "forbidden": [
+      "rouge",
+      "verger",
+      "croquer",
+      "jus",
+      "fruit"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 143,
+    "word": "Pomme au zoo",
+    "forbidden": [
+      "verger",
+      "croquer",
+      "jus",
+      "fruit",
+      "rouge"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 144,
+    "word": "Pomme en dessin animé",
+    "forbidden": [
+      "croquer",
+      "jus",
+      "fruit",
+      "rouge",
+      "verger"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 145,
+    "word": "Pomme dans un film",
+    "forbidden": [
+      "jus",
+      "fruit",
+      "rouge",
+      "verger",
+      "croquer"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 146,
+    "word": "Hamburger",
+    "forbidden": [
+      "pain",
+      "viande",
+      "frites",
+      "fast-food",
+      "jouet"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 147,
+    "word": "Hamburger en peluche",
+    "forbidden": [
+      "viande",
+      "frites",
+      "fast-food",
+      "pain",
+      "jouet"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 148,
+    "word": "Hamburger au zoo",
+    "forbidden": [
+      "frites",
+      "fast-food",
+      "pain",
+      "viande",
+      "jouet"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 149,
+    "word": "Hamburger en dessin animé",
+    "forbidden": [
+      "frites",
+      "fast-food",
+      "pain",
+      "viande",
+      "jouet"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 150,
+    "word": "Hamburger dans un film",
+    "forbidden": [
+      "fast-food",
+      "pain",
+      "viande",
+      "frites",
+      "jouet"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 151,
+    "word": "Frites",
+    "forbidden": [
+      "pomme de terre",
+      "huile",
+      "sel",
+      "restaurant",
+      "croustillant"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 152,
+    "word": "Frites en peluche",
+    "forbidden": [
+      "huile",
+      "sel",
+      "restaurant",
+      "croustillant",
+      "pomme de terre"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 153,
+    "word": "Frites au zoo",
+    "forbidden": [
+      "sel",
+      "restaurant",
+      "croustillant",
+      "pomme de terre",
+      "huile"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 154,
+    "word": "Frites en dessin animé",
+    "forbidden": [
+      "restaurant",
+      "croustillant",
+      "pomme de terre",
+      "huile",
+      "sel"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 155,
+    "word": "Frites dans un film",
+    "forbidden": [
+      "croustillant",
+      "pomme de terre",
+      "huile",
+      "sel",
+      "restaurant"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 156,
+    "word": "Glace",
+    "forbidden": [
+      "froid",
+      "dessert",
+      "cornet",
+      "vanille",
+      "boule"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 157,
+    "word": "Glace en peluche",
+    "forbidden": [
+      "dessert",
+      "cornet",
+      "vanille",
+      "boule",
+      "froid"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 158,
+    "word": "Glace au zoo",
+    "forbidden": [
+      "cornet",
+      "vanille",
+      "boule",
+      "froid",
+      "dessert"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 159,
+    "word": "Glace en dessin animé",
+    "forbidden": [
+      "vanille",
+      "boule",
+      "froid",
+      "dessert",
+      "cornet"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 160,
+    "word": "Glace dans un film",
+    "forbidden": [
+      "boule",
+      "froid",
+      "dessert",
+      "cornet",
+      "vanille"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 161,
+    "word": "Café",
+    "forbidden": [
+      "boisson",
+      "tasse",
+      "matin",
+      "espresso",
+      "caféine"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 162,
+    "word": "Café en peluche",
+    "forbidden": [
+      "tasse",
+      "matin",
+      "espresso",
+      "caféine",
+      "boisson"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 163,
+    "word": "Café au zoo",
+    "forbidden": [
+      "matin",
+      "espresso",
+      "caféine",
+      "boisson",
+      "tasse"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 164,
+    "word": "Café en dessin animé",
+    "forbidden": [
+      "espresso",
+      "caféine",
+      "boisson",
+      "tasse",
+      "matin"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 165,
+    "word": "Café dans un film",
+    "forbidden": [
+      "caféine",
+      "boisson",
+      "tasse",
+      "matin",
+      "espresso"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 166,
+    "word": "Thé",
+    "forbidden": [
+      "boisson",
+      "tasse",
+      "chaud",
+      "infusion",
+      "sachet"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 167,
+    "word": "Thé en peluche",
+    "forbidden": [
+      "tasse",
+      "chaud",
+      "infusion",
+      "sachet",
+      "boisson"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 168,
+    "word": "Thé au zoo",
+    "forbidden": [
+      "chaud",
+      "infusion",
+      "sachet",
+      "boisson",
+      "tasse"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 169,
+    "word": "Thé en dessin animé",
+    "forbidden": [
+      "infusion",
+      "sachet",
+      "boisson",
+      "tasse",
+      "chaud"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 170,
+    "word": "Thé dans un film",
+    "forbidden": [
+      "sachet",
+      "boisson",
+      "tasse",
+      "chaud",
+      "infusion"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 171,
+    "word": "Bière",
+    "forbidden": [
+      "boisson",
+      "bar",
+      "alcool",
+      "mousse",
+      "verre"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 172,
+    "word": "Bière en peluche",
+    "forbidden": [
+      "bar",
+      "alcool",
+      "mousse",
+      "verre",
+      "boisson"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 173,
+    "word": "Bière au zoo",
+    "forbidden": [
+      "alcool",
+      "mousse",
+      "verre",
+      "boisson",
+      "bar"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 174,
+    "word": "Bière en dessin animé",
+    "forbidden": [
+      "mousse",
+      "verre",
+      "boisson",
+      "bar",
+      "alcool"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 175,
+    "word": "Bière dans un film",
+    "forbidden": [
+      "verre",
+      "boisson",
+      "bar",
+      "alcool",
+      "mousse"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 176,
+    "word": "Eau",
+    "forbidden": [
+      "boisson",
+      "robinet",
+      "bouteille",
+      "soif",
+      "liquide"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 177,
+    "word": "Eau en peluche",
+    "forbidden": [
+      "robinet",
+      "bouteille",
+      "soif",
+      "liquide",
+      "boisson"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 178,
+    "word": "Eau au zoo",
+    "forbidden": [
+      "bouteille",
+      "soif",
+      "liquide",
+      "boisson",
+      "robinet"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 179,
+    "word": "Eau en dessin animé",
+    "forbidden": [
+      "soif",
+      "liquide",
+      "boisson",
+      "robinet",
+      "bouteille"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 180,
+    "word": "Eau dans un film",
+    "forbidden": [
+      "liquide",
+      "boisson",
+      "robinet",
+      "bouteille",
+      "soif"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 181,
+    "word": "Lunettes",
+    "forbidden": [
+      "yeux",
+      "vision",
+      "monture",
+      "verres",
+      "opticien"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 182,
+    "word": "Lunettes en peluche",
+    "forbidden": [
+      "vision",
+      "monture",
+      "verres",
+      "opticien",
+      "yeux"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 183,
+    "word": "Lunettes au zoo",
+    "forbidden": [
+      "monture",
+      "verres",
+      "opticien",
+      "yeux",
+      "vision"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 184,
+    "word": "Lunettes en dessin animé",
+    "forbidden": [
+      "verres",
+      "opticien",
+      "yeux",
+      "vision",
+      "monture"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 185,
+    "word": "Lunettes dans un film",
+    "forbidden": [
+      "opticien",
+      "yeux",
+      "vision",
+      "monture",
+      "verres"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 186,
+    "word": "Chapeau",
+    "forbidden": [
+      "tête",
+      "porter",
+      "casquette",
+      "mode",
+      "soleil"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 187,
+    "word": "Chapeau en peluche",
+    "forbidden": [
+      "porter",
+      "casquette",
+      "mode",
+      "soleil",
+      "tête"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 188,
+    "word": "Chapeau au zoo",
+    "forbidden": [
+      "casquette",
+      "mode",
+      "soleil",
+      "tête",
+      "porter"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 189,
+    "word": "Chapeau en dessin animé",
+    "forbidden": [
+      "mode",
+      "soleil",
+      "tête",
+      "porter",
+      "casquette"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 190,
+    "word": "Chapeau dans un film",
+    "forbidden": [
+      "soleil",
+      "tête",
+      "porter",
+      "casquette",
+      "mode"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 191,
+    "word": "Chaussure",
+    "forbidden": [
+      "pied",
+      "marcher",
+      "basket",
+      "lacets",
+      "semelle"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 192,
+    "word": "Chaussure en peluche",
+    "forbidden": [
+      "marcher",
+      "basket",
+      "lacets",
+      "semelle",
+      "pied"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 193,
+    "word": "Chaussure au zoo",
+    "forbidden": [
+      "basket",
+      "lacets",
+      "semelle",
+      "pied",
+      "marcher"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 194,
+    "word": "Chaussure en dessin animé",
+    "forbidden": [
+      "lacets",
+      "semelle",
+      "pied",
+      "marcher",
+      "basket"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 195,
+    "word": "Chaussure dans un film",
+    "forbidden": [
+      "semelle",
+      "pied",
+      "marcher",
+      "basket",
+      "lacets"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 196,
+    "word": "Manteau",
+    "forbidden": [
+      "vêtement",
+      "hiver",
+      "chaud",
+      "porter",
+      "veste"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 197,
+    "word": "Manteau en peluche",
+    "forbidden": [
+      "hiver",
+      "chaud",
+      "porter",
+      "veste",
+      "vêtement"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 198,
+    "word": "Manteau au zoo",
+    "forbidden": [
+      "chaud",
+      "porter",
+      "veste",
+      "vêtement",
+      "hiver"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 199,
+    "word": "Manteau en dessin animé",
+    "forbidden": [
+      "porter",
+      "veste",
+      "vêtement",
+      "hiver",
+      "chaud"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 200,
+    "word": "Manteau dans un film",
+    "forbidden": [
+      "veste",
+      "vêtement",
+      "hiver",
+      "chaud",
+      "porter"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 201,
+    "word": "Parapluie",
+    "forbidden": [
+      "mouillé",
+      "ouvrir",
+      "ombre",
+      "météo",
+      "jouet"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 202,
+    "word": "Parapluie en peluche",
+    "forbidden": [
+      "mouillé",
+      "ouvrir",
+      "ombre",
+      "météo",
+      "jouet"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 203,
+    "word": "Parapluie au zoo",
+    "forbidden": [
+      "ouvrir",
+      "ombre",
+      "météo",
+      "mouillé",
+      "jouet"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 204,
+    "word": "Parapluie en dessin animé",
+    "forbidden": [
+      "ombre",
+      "météo",
+      "mouillé",
+      "ouvrir",
+      "jouet"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 205,
+    "word": "Parapluie dans un film",
+    "forbidden": [
+      "météo",
+      "mouillé",
+      "ouvrir",
+      "ombre",
+      "jouet"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 206,
+    "word": "Neige",
+    "forbidden": [
+      "hiver",
+      "blanc",
+      "froid",
+      "ski",
+      "flocon"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 207,
+    "word": "Neige en peluche",
+    "forbidden": [
+      "blanc",
+      "froid",
+      "ski",
+      "flocon",
+      "hiver"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 208,
+    "word": "Neige au zoo",
+    "forbidden": [
+      "froid",
+      "ski",
+      "flocon",
+      "hiver",
+      "blanc"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 209,
+    "word": "Neige en dessin animé",
+    "forbidden": [
+      "ski",
+      "flocon",
+      "hiver",
+      "blanc",
+      "froid"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 210,
+    "word": "Neige dans un film",
+    "forbidden": [
+      "flocon",
+      "hiver",
+      "blanc",
+      "froid",
+      "ski"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 211,
+    "word": "Orage",
+    "forbidden": [
+      "tonnerre",
+      "éclair",
+      "pluie",
+      "ciel",
+      "tempête"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 212,
+    "word": "Orage en peluche",
+    "forbidden": [
+      "éclair",
+      "pluie",
+      "ciel",
+      "tempête",
+      "tonnerre"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 213,
+    "word": "Orage au zoo",
+    "forbidden": [
+      "pluie",
+      "ciel",
+      "tempête",
+      "tonnerre",
+      "éclair"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 214,
+    "word": "Orage en dessin animé",
+    "forbidden": [
+      "ciel",
+      "tempête",
+      "tonnerre",
+      "éclair",
+      "pluie"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 215,
+    "word": "Orage dans un film",
+    "forbidden": [
+      "tempête",
+      "tonnerre",
+      "éclair",
+      "pluie",
+      "ciel"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 216,
+    "word": "Soleil",
+    "forbidden": [
+      "été",
+      "ciel",
+      "chaud",
+      "lumière",
+      "rayons"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 217,
+    "word": "Soleil en peluche",
+    "forbidden": [
+      "ciel",
+      "chaud",
+      "lumière",
+      "rayons",
+      "été"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 218,
+    "word": "Soleil au zoo",
+    "forbidden": [
+      "chaud",
+      "lumière",
+      "rayons",
+      "été",
+      "ciel"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 219,
+    "word": "Soleil en dessin animé",
+    "forbidden": [
+      "lumière",
+      "rayons",
+      "été",
+      "ciel",
+      "chaud"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 220,
+    "word": "Soleil dans un film",
+    "forbidden": [
+      "rayons",
+      "été",
+      "ciel",
+      "chaud",
+      "lumière"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 221,
+    "word": "Lune",
+    "forbidden": [
+      "nuit",
+      "ciel",
+      "étoile",
+      "satellite",
+      "croissant"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 222,
+    "word": "Lune en peluche",
+    "forbidden": [
+      "ciel",
+      "étoile",
+      "satellite",
+      "croissant",
+      "nuit"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 223,
+    "word": "Lune au zoo",
+    "forbidden": [
+      "étoile",
+      "satellite",
+      "croissant",
+      "nuit",
+      "ciel"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 224,
+    "word": "Lune en dessin animé",
+    "forbidden": [
+      "satellite",
+      "croissant",
+      "nuit",
+      "ciel",
+      "étoile"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 225,
+    "word": "Lune dans un film",
+    "forbidden": [
+      "croissant",
+      "nuit",
+      "ciel",
+      "étoile",
+      "satellite"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 226,
+    "word": "Étoile",
+    "forbidden": [
+      "ciel",
+      "nuit",
+      "lumière",
+      "espace",
+      "astre"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 227,
+    "word": "Étoile en peluche",
+    "forbidden": [
+      "nuit",
+      "lumière",
+      "espace",
+      "astre",
+      "ciel"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 228,
+    "word": "Étoile au zoo",
+    "forbidden": [
+      "lumière",
+      "espace",
+      "astre",
+      "ciel",
+      "nuit"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 229,
+    "word": "Étoile en dessin animé",
+    "forbidden": [
+      "espace",
+      "astre",
+      "ciel",
+      "nuit",
+      "lumière"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 230,
+    "word": "Étoile dans un film",
+    "forbidden": [
+      "astre",
+      "ciel",
+      "nuit",
+      "lumière",
+      "espace"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 231,
+    "word": "Planète",
+    "forbidden": [
+      "Terre",
+      "espace",
+      "Mars",
+      "orbite",
+      "astronaute"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 232,
+    "word": "Planète en peluche",
+    "forbidden": [
+      "espace",
+      "Mars",
+      "orbite",
+      "astronaute",
+      "Terre"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 233,
+    "word": "Planète au zoo",
+    "forbidden": [
+      "Mars",
+      "orbite",
+      "astronaute",
+      "Terre",
+      "espace"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 234,
+    "word": "Planète en dessin animé",
+    "forbidden": [
+      "orbite",
+      "astronaute",
+      "Terre",
+      "espace",
+      "Mars"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 235,
+    "word": "Planète dans un film",
+    "forbidden": [
+      "astronaute",
+      "Terre",
+      "espace",
+      "Mars",
+      "orbite"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 236,
+    "word": "Astronaute",
+    "forbidden": [
+      "espace",
+      "fusée",
+      "NASA",
+      "lune",
+      "combinaison"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 237,
+    "word": "Astronaute en peluche",
+    "forbidden": [
+      "fusée",
+      "NASA",
+      "lune",
+      "combinaison",
+      "espace"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 238,
+    "word": "Astronaute au zoo",
+    "forbidden": [
+      "NASA",
+      "lune",
+      "combinaison",
+      "espace",
+      "fusée"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 239,
+    "word": "Astronaute en dessin animé",
+    "forbidden": [
+      "lune",
+      "combinaison",
+      "espace",
+      "fusée",
+      "NASA"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 240,
+    "word": "Astronaute dans un film",
+    "forbidden": [
+      "combinaison",
+      "espace",
+      "fusée",
+      "NASA",
+      "lune"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 241,
+    "word": "Fusée",
+    "forbidden": [
+      "espace",
+      "décollage",
+      "astronaute",
+      "NASA",
+      "propulsion"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 242,
+    "word": "Fusée en peluche",
+    "forbidden": [
+      "décollage",
+      "astronaute",
+      "NASA",
+      "propulsion",
+      "espace"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 243,
+    "word": "Fusée au zoo",
+    "forbidden": [
+      "astronaute",
+      "NASA",
+      "propulsion",
+      "espace",
+      "décollage"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 244,
+    "word": "Fusée en dessin animé",
+    "forbidden": [
+      "NASA",
+      "propulsion",
+      "espace",
+      "décollage",
+      "astronaute"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 245,
+    "word": "Fusée dans un film",
+    "forbidden": [
+      "propulsion",
+      "espace",
+      "décollage",
+      "astronaute",
+      "NASA"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 246,
+    "word": "Robot",
+    "forbidden": [
+      "machine",
+      "automatique",
+      "IA",
+      "métal",
+      "humain"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 247,
+    "word": "Robot en peluche",
+    "forbidden": [
+      "automatique",
+      "IA",
+      "métal",
+      "humain",
+      "machine"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 248,
+    "word": "Robot au zoo",
+    "forbidden": [
+      "IA",
+      "métal",
+      "humain",
+      "machine",
+      "automatique"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 249,
+    "word": "Robot en dessin animé",
+    "forbidden": [
+      "métal",
+      "humain",
+      "machine",
+      "automatique",
+      "IA"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 250,
+    "word": "Robot dans un film",
+    "forbidden": [
+      "humain",
+      "machine",
+      "automatique",
+      "IA",
+      "métal"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 251,
+    "word": "Internet",
+    "forbidden": [
+      "web",
+      "réseau",
+      "ordinateur",
+      "site",
+      "connexion"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 252,
+    "word": "Internet en peluche",
+    "forbidden": [
+      "réseau",
+      "ordinateur",
+      "site",
+      "connexion",
+      "web"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 253,
+    "word": "Internet au zoo",
+    "forbidden": [
+      "ordinateur",
+      "site",
+      "connexion",
+      "web",
+      "réseau"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 254,
+    "word": "Internet en dessin animé",
+    "forbidden": [
+      "site",
+      "connexion",
+      "web",
+      "réseau",
+      "ordinateur"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 255,
+    "word": "Internet dans un film",
+    "forbidden": [
+      "connexion",
+      "web",
+      "réseau",
+      "ordinateur",
+      "site"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 256,
+    "word": "Instagram",
+    "forbidden": [
+      "réseau",
+      "photo",
+      "stories",
+      "likes",
+      "application"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 257,
+    "word": "Instagram en peluche",
+    "forbidden": [
+      "photo",
+      "stories",
+      "likes",
+      "application",
+      "réseau"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 258,
+    "word": "Instagram au zoo",
+    "forbidden": [
+      "stories",
+      "likes",
+      "application",
+      "réseau",
+      "photo"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 259,
+    "word": "Instagram en dessin animé",
+    "forbidden": [
+      "likes",
+      "application",
+      "réseau",
+      "photo",
+      "stories"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 260,
+    "word": "Instagram dans un film",
+    "forbidden": [
+      "application",
+      "réseau",
+      "photo",
+      "stories",
+      "likes"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 261,
+    "word": "YouTube",
+    "forbidden": [
+      "vidéo",
+      "chaîne",
+      "abonnés",
+      "streaming",
+      "créateur"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 262,
+    "word": "YouTube en peluche",
+    "forbidden": [
+      "chaîne",
+      "abonnés",
+      "streaming",
+      "créateur",
+      "vidéo"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 263,
+    "word": "YouTube au zoo",
+    "forbidden": [
+      "abonnés",
+      "streaming",
+      "créateur",
+      "vidéo",
+      "chaîne"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 264,
+    "word": "YouTube en dessin animé",
+    "forbidden": [
+      "streaming",
+      "créateur",
+      "vidéo",
+      "chaîne",
+      "abonnés"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 265,
+    "word": "YouTube dans un film",
+    "forbidden": [
+      "créateur",
+      "vidéo",
+      "chaîne",
+      "abonnés",
+      "streaming"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 266,
+    "word": "TikTok",
+    "forbidden": [
+      "vidéo",
+      "danse",
+      "réseau",
+      "application",
+      "vertical"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 267,
+    "word": "TikTok en peluche",
+    "forbidden": [
+      "danse",
+      "réseau",
+      "application",
+      "vertical",
+      "vidéo"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 268,
+    "word": "TikTok au zoo",
+    "forbidden": [
+      "réseau",
+      "application",
+      "vertical",
+      "vidéo",
+      "danse"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 269,
+    "word": "TikTok en dessin animé",
+    "forbidden": [
+      "application",
+      "vertical",
+      "vidéo",
+      "danse",
+      "réseau"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 270,
+    "word": "TikTok dans un film",
+    "forbidden": [
+      "vertical",
+      "vidéo",
+      "danse",
+      "réseau",
+      "application"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 271,
+    "word": "Snapchat",
+    "forbidden": [
+      "photo",
+      "stories",
+      "filtre",
+      "message",
+      "fantôme"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 272,
+    "word": "Snapchat en peluche",
+    "forbidden": [
+      "stories",
+      "filtre",
+      "message",
+      "fantôme",
+      "photo"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 273,
+    "word": "Snapchat au zoo",
+    "forbidden": [
+      "filtre",
+      "message",
+      "fantôme",
+      "photo",
+      "stories"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 274,
+    "word": "Snapchat en dessin animé",
+    "forbidden": [
+      "message",
+      "fantôme",
+      "photo",
+      "stories",
+      "filtre"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 275,
+    "word": "Snapchat dans un film",
+    "forbidden": [
+      "fantôme",
+      "photo",
+      "stories",
+      "filtre",
+      "message"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 276,
+    "word": "Musique",
+    "forbidden": [
+      "son",
+      "chanson",
+      "écouter",
+      "artiste",
+      "instrument"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 277,
+    "word": "Musique en peluche",
+    "forbidden": [
+      "chanson",
+      "écouter",
+      "artiste",
+      "instrument",
+      "son"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 278,
+    "word": "Musique au zoo",
+    "forbidden": [
+      "écouter",
+      "artiste",
+      "instrument",
+      "son",
+      "chanson"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 279,
+    "word": "Musique en dessin animé",
+    "forbidden": [
+      "artiste",
+      "instrument",
+      "son",
+      "chanson",
+      "écouter"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 280,
+    "word": "Musique dans un film",
+    "forbidden": [
+      "instrument",
+      "son",
+      "chanson",
+      "écouter",
+      "artiste"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 281,
+    "word": "Chanson",
+    "forbidden": [
+      "musique",
+      "paroles",
+      "couplet",
+      "refrain",
+      "chanter"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 282,
+    "word": "Chanson en peluche",
+    "forbidden": [
+      "paroles",
+      "couplet",
+      "refrain",
+      "chanter",
+      "musique"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 283,
+    "word": "Chanson au zoo",
+    "forbidden": [
+      "couplet",
+      "refrain",
+      "chanter",
+      "musique",
+      "paroles"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 284,
+    "word": "Chanson en dessin animé",
+    "forbidden": [
+      "refrain",
+      "chanter",
+      "musique",
+      "paroles",
+      "couplet"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 285,
+    "word": "Chanson dans un film",
+    "forbidden": [
+      "chanter",
+      "musique",
+      "paroles",
+      "couplet",
+      "refrain"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 286,
+    "word": "DJ",
+    "forbidden": [
+      "musique",
+      "platines",
+      "soirée",
+      "mix",
+      "club"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 287,
+    "word": "DJ en peluche",
+    "forbidden": [
+      "platines",
+      "soirée",
+      "mix",
+      "club",
+      "musique"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 288,
+    "word": "DJ au zoo",
+    "forbidden": [
+      "soirée",
+      "mix",
+      "club",
+      "musique",
+      "platines"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 289,
+    "word": "DJ en dessin animé",
+    "forbidden": [
+      "mix",
+      "club",
+      "musique",
+      "platines",
+      "soirée"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 290,
+    "word": "DJ dans un film",
+    "forbidden": [
+      "club",
+      "musique",
+      "platines",
+      "soirée",
+      "mix"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 291,
+    "word": "Danse",
+    "forbidden": [
+      "musique",
+      "bouger",
+      "corps",
+      "chorégraphie",
+      "piste"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 292,
+    "word": "Danse en peluche",
+    "forbidden": [
+      "bouger",
+      "corps",
+      "chorégraphie",
+      "piste",
+      "musique"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 293,
+    "word": "Danse au zoo",
+    "forbidden": [
+      "corps",
+      "chorégraphie",
+      "piste",
+      "musique",
+      "bouger"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 294,
+    "word": "Danse en dessin animé",
+    "forbidden": [
+      "chorégraphie",
+      "piste",
+      "musique",
+      "bouger",
+      "corps"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 295,
+    "word": "Danse dans un film",
+    "forbidden": [
+      "piste",
+      "musique",
+      "bouger",
+      "corps",
+      "chorégraphie"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 296,
+    "word": "Concert",
+    "forbidden": [
+      "musique",
+      "public",
+      "scène",
+      "artiste",
+      "billet"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 297,
+    "word": "Concert en peluche",
+    "forbidden": [
+      "public",
+      "scène",
+      "artiste",
+      "billet",
+      "musique"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 298,
+    "word": "Concert au zoo",
+    "forbidden": [
+      "scène",
+      "artiste",
+      "billet",
+      "musique",
+      "public"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 299,
+    "word": "Concert en dessin animé",
+    "forbidden": [
+      "artiste",
+      "billet",
+      "musique",
+      "public",
+      "scène"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 300,
+    "word": "Concert dans un film",
+    "forbidden": [
+      "billet",
+      "musique",
+      "public",
+      "scène",
+      "artiste"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 301,
+    "word": "Batterie",
+    "forbidden": [
+      "instrument",
+      "rythme",
+      "tambours",
+      "musique",
+      "baguettes"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 302,
+    "word": "Batterie en peluche",
+    "forbidden": [
+      "rythme",
+      "tambours",
+      "musique",
+      "baguettes",
+      "instrument"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 303,
+    "word": "Batterie au zoo",
+    "forbidden": [
+      "tambours",
+      "musique",
+      "baguettes",
+      "instrument",
+      "rythme"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 304,
+    "word": "Batterie en dessin animé",
+    "forbidden": [
+      "musique",
+      "baguettes",
+      "instrument",
+      "rythme",
+      "tambours"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 305,
+    "word": "Batterie dans un film",
+    "forbidden": [
+      "baguettes",
+      "instrument",
+      "rythme",
+      "tambours",
+      "musique"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 306,
+    "word": "Piano",
+    "forbidden": [
+      "instrument",
+      "touches",
+      "musique",
+      "clavier",
+      "concert"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 307,
+    "word": "Piano en peluche",
+    "forbidden": [
+      "touches",
+      "musique",
+      "clavier",
+      "concert",
+      "instrument"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 308,
+    "word": "Piano au zoo",
+    "forbidden": [
+      "musique",
+      "clavier",
+      "concert",
+      "instrument",
+      "touches"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 309,
+    "word": "Piano en dessin animé",
+    "forbidden": [
+      "clavier",
+      "concert",
+      "instrument",
+      "touches",
+      "musique"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 310,
+    "word": "Piano dans un film",
+    "forbidden": [
+      "concert",
+      "instrument",
+      "touches",
+      "musique",
+      "clavier"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 311,
+    "word": "Guitare électrique",
+    "forbidden": [
+      "instrument",
+      "cordes",
+      "ampli",
+      "rock",
+      "musique"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 312,
+    "word": "Guitare électrique en peluche",
+    "forbidden": [
+      "cordes",
+      "ampli",
+      "rock",
+      "musique",
+      "instrument"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 313,
+    "word": "Guitare électrique au zoo",
+    "forbidden": [
+      "ampli",
+      "rock",
+      "musique",
+      "instrument",
+      "cordes"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 314,
+    "word": "Guitare électrique en dessin animé",
+    "forbidden": [
+      "rock",
+      "musique",
+      "instrument",
+      "cordes",
+      "ampli"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 315,
+    "word": "Guitare électrique dans un film",
+    "forbidden": [
+      "musique",
+      "instrument",
+      "cordes",
+      "ampli",
+      "rock"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 316,
+    "word": "Basketball",
+    "forbidden": [
+      "sport",
+      "panier",
+      "ballon",
+      "NBA",
+      "terrain"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 317,
+    "word": "Basketball en peluche",
+    "forbidden": [
+      "panier",
+      "ballon",
+      "NBA",
+      "terrain",
+      "sport"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 318,
+    "word": "Basketball au zoo",
+    "forbidden": [
+      "ballon",
+      "NBA",
+      "terrain",
+      "sport",
+      "panier"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 319,
+    "word": "Basketball en dessin animé",
+    "forbidden": [
+      "NBA",
+      "terrain",
+      "sport",
+      "panier",
+      "ballon"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 320,
+    "word": "Basketball dans un film",
+    "forbidden": [
+      "terrain",
+      "sport",
+      "panier",
+      "ballon",
+      "NBA"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 321,
+    "word": "Tennis",
+    "forbidden": [
+      "sport",
+      "raquette",
+      "balle",
+      "court",
+      "match"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 322,
+    "word": "Tennis en peluche",
+    "forbidden": [
+      "raquette",
+      "balle",
+      "court",
+      "match",
+      "sport"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 323,
+    "word": "Tennis au zoo",
+    "forbidden": [
+      "balle",
+      "court",
+      "match",
+      "sport",
+      "raquette"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 324,
+    "word": "Tennis en dessin animé",
+    "forbidden": [
+      "court",
+      "match",
+      "sport",
+      "raquette",
+      "balle"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 325,
+    "word": "Tennis dans un film",
+    "forbidden": [
+      "match",
+      "sport",
+      "raquette",
+      "balle",
+      "court"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 326,
+    "word": "Rugby",
+    "forbidden": [
+      "sport",
+      "ballon",
+      "essai",
+      "équipe",
+      "terrain"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 327,
+    "word": "Rugby en peluche",
+    "forbidden": [
+      "ballon",
+      "essai",
+      "équipe",
+      "terrain",
+      "sport"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 328,
+    "word": "Rugby au zoo",
+    "forbidden": [
+      "essai",
+      "équipe",
+      "terrain",
+      "sport",
+      "ballon"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 329,
+    "word": "Rugby en dessin animé",
+    "forbidden": [
+      "équipe",
+      "terrain",
+      "sport",
+      "ballon",
+      "essai"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 330,
+    "word": "Rugby dans un film",
+    "forbidden": [
+      "terrain",
+      "sport",
+      "ballon",
+      "essai",
+      "équipe"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 331,
+    "word": "Natation",
+    "forbidden": [
+      "sport",
+      "piscine",
+      "nager",
+      "eau",
+      "crawl"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 332,
+    "word": "Natation en peluche",
+    "forbidden": [
+      "piscine",
+      "nager",
+      "eau",
+      "crawl",
+      "sport"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 333,
+    "word": "Natation au zoo",
+    "forbidden": [
+      "nager",
+      "eau",
+      "crawl",
+      "sport",
+      "piscine"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 334,
+    "word": "Natation en dessin animé",
+    "forbidden": [
+      "eau",
+      "crawl",
+      "sport",
+      "piscine",
+      "nager"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 335,
+    "word": "Natation dans un film",
+    "forbidden": [
+      "crawl",
+      "sport",
+      "piscine",
+      "nager",
+      "eau"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 336,
+    "word": "Course",
+    "forbidden": [
+      "sport",
+      "courir",
+      "marathon",
+      "jambes",
+      "chrono"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 337,
+    "word": "Course en peluche",
+    "forbidden": [
+      "courir",
+      "marathon",
+      "jambes",
+      "chrono",
+      "sport"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 338,
+    "word": "Course au zoo",
+    "forbidden": [
+      "marathon",
+      "jambes",
+      "chrono",
+      "sport",
+      "courir"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 339,
+    "word": "Course en dessin animé",
+    "forbidden": [
+      "jambes",
+      "chrono",
+      "sport",
+      "courir",
+      "marathon"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 340,
+    "word": "Course dans un film",
+    "forbidden": [
+      "chrono",
+      "sport",
+      "courir",
+      "marathon",
+      "jambes"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 341,
+    "word": "Boxe",
+    "forbidden": [
+      "sport",
+      "gants",
+      "ring",
+      "combat",
+      "coup"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 342,
+    "word": "Boxe en peluche",
+    "forbidden": [
+      "gants",
+      "ring",
+      "combat",
+      "coup",
+      "sport"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 343,
+    "word": "Boxe au zoo",
+    "forbidden": [
+      "ring",
+      "combat",
+      "coup",
+      "sport",
+      "gants"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 344,
+    "word": "Boxe en dessin animé",
+    "forbidden": [
+      "combat",
+      "coup",
+      "sport",
+      "gants",
+      "ring"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 345,
+    "word": "Boxe dans un film",
+    "forbidden": [
+      "coup",
+      "sport",
+      "gants",
+      "ring",
+      "combat"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 346,
+    "word": "Cyclisme",
+    "forbidden": [
+      "vélo",
+      "sport",
+      "course",
+      "pédale",
+      "casque"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 347,
+    "word": "Cyclisme en peluche",
+    "forbidden": [
+      "sport",
+      "course",
+      "pédale",
+      "casque",
+      "vélo"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 348,
+    "word": "Cyclisme au zoo",
+    "forbidden": [
+      "course",
+      "pédale",
+      "casque",
+      "vélo",
+      "sport"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 349,
+    "word": "Cyclisme en dessin animé",
+    "forbidden": [
+      "pédale",
+      "casque",
+      "vélo",
+      "sport",
+      "course"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 350,
+    "word": "Cyclisme dans un film",
+    "forbidden": [
+      "casque",
+      "vélo",
+      "sport",
+      "course",
+      "pédale"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 351,
+    "word": "Ski",
+    "forbidden": [
+      "neige",
+      "montagne",
+      "pistes",
+      "hiver",
+      "glisse"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 352,
+    "word": "Ski en peluche",
+    "forbidden": [
+      "montagne",
+      "pistes",
+      "hiver",
+      "glisse",
+      "neige"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 353,
+    "word": "Ski au zoo",
+    "forbidden": [
+      "pistes",
+      "hiver",
+      "glisse",
+      "neige",
+      "montagne"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 354,
+    "word": "Ski en dessin animé",
+    "forbidden": [
+      "hiver",
+      "glisse",
+      "neige",
+      "montagne",
+      "pistes"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 355,
+    "word": "Ski dans un film",
+    "forbidden": [
+      "glisse",
+      "neige",
+      "montagne",
+      "pistes",
+      "hiver"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 356,
+    "word": "Surf",
+    "forbidden": [
+      "vague",
+      "planche",
+      "mer",
+      "plage",
+      "océan"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 357,
+    "word": "Surf en peluche",
+    "forbidden": [
+      "planche",
+      "mer",
+      "plage",
+      "océan",
+      "vague"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 358,
+    "word": "Surf au zoo",
+    "forbidden": [
+      "mer",
+      "plage",
+      "océan",
+      "vague",
+      "planche"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 359,
+    "word": "Surf en dessin animé",
+    "forbidden": [
+      "plage",
+      "océan",
+      "vague",
+      "planche",
+      "mer"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 360,
+    "word": "Surf dans un film",
+    "forbidden": [
+      "océan",
+      "vague",
+      "planche",
+      "mer",
+      "plage"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 361,
+    "word": "Paddle",
+    "forbidden": [
+      "raquette",
+      "balle",
+      "court",
+      "tennis",
+      "sport"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 362,
+    "word": "Paddle en peluche",
+    "forbidden": [
+      "balle",
+      "court",
+      "tennis",
+      "sport",
+      "raquette"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 363,
+    "word": "Paddle au zoo",
+    "forbidden": [
+      "court",
+      "tennis",
+      "sport",
+      "raquette",
+      "balle"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 364,
+    "word": "Paddle en dessin animé",
+    "forbidden": [
+      "tennis",
+      "sport",
+      "raquette",
+      "balle",
+      "court"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 365,
+    "word": "Paddle dans un film",
+    "forbidden": [
+      "sport",
+      "raquette",
+      "balle",
+      "court",
+      "tennis"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 366,
+    "word": "Livre",
+    "forbidden": [
+      "lecture",
+      "pages",
+      "roman",
+      "auteur",
+      "bibliothèque"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 367,
+    "word": "Livre en peluche",
+    "forbidden": [
+      "pages",
+      "roman",
+      "auteur",
+      "bibliothèque",
+      "lecture"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 368,
+    "word": "Livre au zoo",
+    "forbidden": [
+      "roman",
+      "auteur",
+      "bibliothèque",
+      "lecture",
+      "pages"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 369,
+    "word": "Livre en dessin animé",
+    "forbidden": [
+      "auteur",
+      "bibliothèque",
+      "lecture",
+      "pages",
+      "roman"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 370,
+    "word": "Livre dans un film",
+    "forbidden": [
+      "bibliothèque",
+      "lecture",
+      "pages",
+      "roman",
+      "auteur"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 371,
+    "word": "Journal",
+    "forbidden": [
+      "actualité",
+      "papier",
+      "article",
+      "presse",
+      "quotidien"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 372,
+    "word": "Journal en peluche",
+    "forbidden": [
+      "papier",
+      "article",
+      "presse",
+      "quotidien",
+      "actualité"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 373,
+    "word": "Journal au zoo",
+    "forbidden": [
+      "article",
+      "presse",
+      "quotidien",
+      "actualité",
+      "papier"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 374,
+    "word": "Journal en dessin animé",
+    "forbidden": [
+      "presse",
+      "quotidien",
+      "actualité",
+      "papier",
+      "article"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 375,
+    "word": "Journal dans un film",
+    "forbidden": [
+      "quotidien",
+      "actualité",
+      "papier",
+      "article",
+      "presse"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 376,
+    "word": "Télévision",
+    "forbidden": [
+      "écran",
+      "chaîne",
+      "regarder",
+      "programme",
+      "télécommande"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 377,
+    "word": "Télévision en peluche",
+    "forbidden": [
+      "chaîne",
+      "regarder",
+      "programme",
+      "télécommande",
+      "écran"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 378,
+    "word": "Télévision au zoo",
+    "forbidden": [
+      "regarder",
+      "programme",
+      "télécommande",
+      "écran",
+      "chaîne"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 379,
+    "word": "Télévision en dessin animé",
+    "forbidden": [
+      "programme",
+      "télécommande",
+      "écran",
+      "chaîne",
+      "regarder"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 380,
+    "word": "Télévision dans un film",
+    "forbidden": [
+      "télécommande",
+      "écran",
+      "chaîne",
+      "regarder",
+      "programme"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 381,
+    "word": "Radio",
+    "forbidden": [
+      "son",
+      "station",
+      "animateur",
+      "FM",
+      "écouter"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 382,
+    "word": "Radio en peluche",
+    "forbidden": [
+      "station",
+      "animateur",
+      "FM",
+      "écouter",
+      "son"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 383,
+    "word": "Radio au zoo",
+    "forbidden": [
+      "animateur",
+      "FM",
+      "écouter",
+      "son",
+      "station"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 384,
+    "word": "Radio en dessin animé",
+    "forbidden": [
+      "FM",
+      "écouter",
+      "son",
+      "station",
+      "animateur"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 385,
+    "word": "Radio dans un film",
+    "forbidden": [
+      "écouter",
+      "son",
+      "station",
+      "animateur",
+      "FM"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 386,
+    "word": "Appareil photo",
+    "forbidden": [
+      "objectif",
+      "image",
+      "caméra",
+      "photographe",
+      "jouet"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 387,
+    "word": "Appareil photo en peluche",
+    "forbidden": [
+      "objectif",
+      "image",
+      "caméra",
+      "photographe",
+      "jouet"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 388,
+    "word": "Appareil photo au zoo",
+    "forbidden": [
+      "image",
+      "caméra",
+      "photographe",
+      "objectif",
+      "jouet"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 389,
+    "word": "Appareil photo en dessin animé",
+    "forbidden": [
+      "caméra",
+      "photographe",
+      "objectif",
+      "image",
+      "jouet"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 390,
+    "word": "Appareil photo dans un film",
+    "forbidden": [
+      "photographe",
+      "objectif",
+      "image",
+      "caméra",
+      "jouet"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 391,
+    "word": "Caméra",
+    "forbidden": [
+      "film",
+      "vidéo",
+      "objectif",
+      "tournage",
+      "cinéma"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 392,
+    "word": "Caméra en peluche",
+    "forbidden": [
+      "vidéo",
+      "objectif",
+      "tournage",
+      "cinéma",
+      "film"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 393,
+    "word": "Caméra au zoo",
+    "forbidden": [
+      "objectif",
+      "tournage",
+      "cinéma",
+      "film",
+      "vidéo"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 394,
+    "word": "Caméra en dessin animé",
+    "forbidden": [
+      "tournage",
+      "cinéma",
+      "film",
+      "vidéo",
+      "objectif"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 395,
+    "word": "Caméra dans un film",
+    "forbidden": [
+      "cinéma",
+      "vidéo",
+      "objectif",
+      "tournage",
+      "jouet"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 396,
+    "word": "Clé",
+    "forbidden": [
+      "porte",
+      "serrure",
+      "ouvrir",
+      "maison",
+      "trousseau"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 397,
+    "word": "Clé en peluche",
+    "forbidden": [
+      "serrure",
+      "ouvrir",
+      "maison",
+      "trousseau",
+      "porte"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 398,
+    "word": "Clé au zoo",
+    "forbidden": [
+      "ouvrir",
+      "maison",
+      "trousseau",
+      "porte",
+      "serrure"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 399,
+    "word": "Clé en dessin animé",
+    "forbidden": [
+      "maison",
+      "trousseau",
+      "porte",
+      "serrure",
+      "ouvrir"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 400,
+    "word": "Clé dans un film",
+    "forbidden": [
+      "trousseau",
+      "porte",
+      "serrure",
+      "ouvrir",
+      "maison"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 401,
+    "word": "Maison",
+    "forbidden": [
+      "habiter",
+      "pièce",
+      "toit",
+      "famille",
+      "domicile"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 402,
+    "word": "Maison en peluche",
+    "forbidden": [
+      "pièce",
+      "toit",
+      "famille",
+      "domicile",
+      "habiter"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 403,
+    "word": "Maison au zoo",
+    "forbidden": [
+      "toit",
+      "famille",
+      "domicile",
+      "habiter",
+      "pièce"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 404,
+    "word": "Maison en dessin animé",
+    "forbidden": [
+      "famille",
+      "domicile",
+      "habiter",
+      "pièce",
+      "toit"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 405,
+    "word": "Maison dans un film",
+    "forbidden": [
+      "domicile",
+      "habiter",
+      "pièce",
+      "toit",
+      "famille"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 406,
+    "word": "Appartement",
+    "forbidden": [
+      "logement",
+      "immeuble",
+      "pièce",
+      "locataire",
+      "loyer"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 407,
+    "word": "Appartement en peluche",
+    "forbidden": [
+      "immeuble",
+      "pièce",
+      "locataire",
+      "loyer",
+      "logement"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 408,
+    "word": "Appartement au zoo",
+    "forbidden": [
+      "pièce",
+      "locataire",
+      "loyer",
+      "logement",
+      "immeuble"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 409,
+    "word": "Appartement en dessin animé",
+    "forbidden": [
+      "locataire",
+      "loyer",
+      "logement",
+      "immeuble",
+      "pièce"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 410,
+    "word": "Appartement dans un film",
+    "forbidden": [
+      "loyer",
+      "logement",
+      "immeuble",
+      "pièce",
+      "locataire"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 411,
+    "word": "Cuisine",
+    "forbidden": [
+      "repas",
+      "four",
+      "frigo",
+      "cuisiner",
+      "plats"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 412,
+    "word": "Cuisine en peluche",
+    "forbidden": [
+      "four",
+      "frigo",
+      "cuisiner",
+      "plats",
+      "repas"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 413,
+    "word": "Cuisine au zoo",
+    "forbidden": [
+      "frigo",
+      "cuisiner",
+      "plats",
+      "repas",
+      "four"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 414,
+    "word": "Cuisine en dessin animé",
+    "forbidden": [
+      "cuisiner",
+      "plats",
+      "repas",
+      "four",
+      "frigo"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 415,
+    "word": "Cuisine dans un film",
+    "forbidden": [
+      "plats",
+      "repas",
+      "four",
+      "frigo",
+      "cuisiner"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 416,
+    "word": "Frigo",
+    "forbidden": [
+      "froid",
+      "cuisine",
+      "nourriture",
+      "glace",
+      "réfrigérateur"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 417,
+    "word": "Frigo en peluche",
+    "forbidden": [
+      "cuisine",
+      "nourriture",
+      "glace",
+      "réfrigérateur",
+      "froid"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 418,
+    "word": "Frigo au zoo",
+    "forbidden": [
+      "nourriture",
+      "glace",
+      "réfrigérateur",
+      "froid",
+      "cuisine"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 419,
+    "word": "Frigo en dessin animé",
+    "forbidden": [
+      "glace",
+      "réfrigérateur",
+      "froid",
+      "cuisine",
+      "nourriture"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 420,
+    "word": "Frigo dans un film",
+    "forbidden": [
+      "réfrigérateur",
+      "froid",
+      "cuisine",
+      "nourriture",
+      "glace"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 421,
+    "word": "Four",
+    "forbidden": [
+      "cuisine",
+      "cuire",
+      "chaleur",
+      "pizza",
+      "gâteau"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 422,
+    "word": "Four en peluche",
+    "forbidden": [
+      "cuire",
+      "chaleur",
+      "pizza",
+      "gâteau",
+      "cuisine"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 423,
+    "word": "Four au zoo",
+    "forbidden": [
+      "chaleur",
+      "pizza",
+      "gâteau",
+      "cuisine",
+      "cuire"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 424,
+    "word": "Four en dessin animé",
+    "forbidden": [
+      "pizza",
+      "gâteau",
+      "cuisine",
+      "cuire",
+      "chaleur"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 425,
+    "word": "Four dans un film",
+    "forbidden": [
+      "gâteau",
+      "cuisine",
+      "cuire",
+      "chaleur",
+      "pizza"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 426,
+    "word": "Lit",
+    "forbidden": [
+      "dormir",
+      "chambre",
+      "matelas",
+      "oreiller",
+      "nuit"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 427,
+    "word": "Lit en peluche",
+    "forbidden": [
+      "chambre",
+      "matelas",
+      "oreiller",
+      "nuit",
+      "dormir"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 428,
+    "word": "Lit au zoo",
+    "forbidden": [
+      "matelas",
+      "oreiller",
+      "nuit",
+      "dormir",
+      "chambre"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 429,
+    "word": "Lit en dessin animé",
+    "forbidden": [
+      "oreiller",
+      "nuit",
+      "dormir",
+      "chambre",
+      "matelas"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 430,
+    "word": "Lit dans un film",
+    "forbidden": [
+      "nuit",
+      "dormir",
+      "chambre",
+      "matelas",
+      "oreiller"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 431,
+    "word": "Canapé",
+    "forbidden": [
+      "salon",
+      "s'asseoir",
+      "coussin",
+      "meuble",
+      "télévision"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 432,
+    "word": "Canapé en peluche",
+    "forbidden": [
+      "s'asseoir",
+      "coussin",
+      "meuble",
+      "télévision",
+      "salon"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 433,
+    "word": "Canapé au zoo",
+    "forbidden": [
+      "coussin",
+      "meuble",
+      "télévision",
+      "salon",
+      "s'asseoir"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 434,
+    "word": "Canapé en dessin animé",
+    "forbidden": [
+      "meuble",
+      "télévision",
+      "salon",
+      "s'asseoir",
+      "coussin"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 435,
+    "word": "Canapé dans un film",
+    "forbidden": [
+      "télévision",
+      "salon",
+      "s'asseoir",
+      "coussin",
+      "meuble"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 436,
+    "word": "Table",
+    "forbidden": [
+      "manger",
+      "chaise",
+      "meuble",
+      "repas",
+      "surface"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 437,
+    "word": "Table en peluche",
+    "forbidden": [
+      "chaise",
+      "meuble",
+      "repas",
+      "surface",
+      "manger"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 438,
+    "word": "Table au zoo",
+    "forbidden": [
+      "meuble",
+      "repas",
+      "surface",
+      "manger",
+      "chaise"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 439,
+    "word": "Table en dessin animé",
+    "forbidden": [
+      "repas",
+      "surface",
+      "manger",
+      "chaise",
+      "meuble"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 440,
+    "word": "Table dans un film",
+    "forbidden": [
+      "surface",
+      "manger",
+      "chaise",
+      "meuble",
+      "repas"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 441,
+    "word": "Chaise",
+    "forbidden": [
+      "s'asseoir",
+      "table",
+      "meuble",
+      "dos",
+      "siège"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 442,
+    "word": "Chaise en peluche",
+    "forbidden": [
+      "table",
+      "meuble",
+      "dos",
+      "siège",
+      "s'asseoir"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 443,
+    "word": "Chaise au zoo",
+    "forbidden": [
+      "meuble",
+      "dos",
+      "siège",
+      "s'asseoir",
+      "table"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 444,
+    "word": "Chaise en dessin animé",
+    "forbidden": [
+      "dos",
+      "siège",
+      "s'asseoir",
+      "table",
+      "meuble"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 445,
+    "word": "Chaise dans un film",
+    "forbidden": [
+      "siège",
+      "s'asseoir",
+      "table",
+      "meuble",
+      "dos"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 446,
+    "word": "Lampe",
+    "forbidden": [
+      "lumière",
+      "éclairage",
+      "ampoule",
+      "table",
+      "interrupteur"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 447,
+    "word": "Lampe en peluche",
+    "forbidden": [
+      "éclairage",
+      "ampoule",
+      "table",
+      "interrupteur",
+      "lumière"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 448,
+    "word": "Lampe au zoo",
+    "forbidden": [
+      "ampoule",
+      "table",
+      "interrupteur",
+      "lumière",
+      "éclairage"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 449,
+    "word": "Lampe en dessin animé",
+    "forbidden": [
+      "table",
+      "interrupteur",
+      "lumière",
+      "éclairage",
+      "ampoule"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 450,
+    "word": "Lampe dans un film",
+    "forbidden": [
+      "interrupteur",
+      "lumière",
+      "éclairage",
+      "ampoule",
+      "table"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 451,
+    "word": "Miroir",
+    "forbidden": [
+      "reflet",
+      "glace",
+      "visage",
+      "salle de bain",
+      "regarder"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 452,
+    "word": "Miroir en peluche",
+    "forbidden": [
+      "glace",
+      "visage",
+      "salle de bain",
+      "regarder",
+      "reflet"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 453,
+    "word": "Miroir au zoo",
+    "forbidden": [
+      "visage",
+      "salle de bain",
+      "regarder",
+      "reflet",
+      "glace"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 454,
+    "word": "Miroir en dessin animé",
+    "forbidden": [
+      "salle de bain",
+      "regarder",
+      "reflet",
+      "glace",
+      "visage"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 455,
+    "word": "Miroir dans un film",
+    "forbidden": [
+      "regarder",
+      "reflet",
+      "glace",
+      "visage",
+      "salle de bain"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 456,
+    "word": "Savon",
+    "forbidden": [
+      "douche",
+      "lavage",
+      "mains",
+      "mousse",
+      "hygiène"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 457,
+    "word": "Savon en peluche",
+    "forbidden": [
+      "lavage",
+      "mains",
+      "mousse",
+      "hygiène",
+      "douche"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 458,
+    "word": "Savon au zoo",
+    "forbidden": [
+      "mains",
+      "mousse",
+      "hygiène",
+      "douche",
+      "lavage"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 459,
+    "word": "Savon en dessin animé",
+    "forbidden": [
+      "mousse",
+      "hygiène",
+      "douche",
+      "lavage",
+      "mains"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 460,
+    "word": "Savon dans un film",
+    "forbidden": [
+      "hygiène",
+      "douche",
+      "lavage",
+      "mains",
+      "mousse"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 461,
+    "word": "Brosse à dents",
+    "forbidden": [
+      "dentifrice",
+      "bouche",
+      "matin",
+      "lavage",
+      "jouet"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 462,
+    "word": "Brosse à dents en peluche",
+    "forbidden": [
+      "dentifrice",
+      "bouche",
+      "matin",
+      "lavage",
+      "jouet"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 463,
+    "word": "Brosse à dents au zoo",
+    "forbidden": [
+      "bouche",
+      "matin",
+      "lavage",
+      "dentifrice",
+      "jouet"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 464,
+    "word": "Brosse à dents en dessin animé",
+    "forbidden": [
+      "matin",
+      "lavage",
+      "dentifrice",
+      "bouche",
+      "jouet"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 465,
+    "word": "Brosse à dents dans un film",
+    "forbidden": [
+      "lavage",
+      "dentifrice",
+      "bouche",
+      "matin",
+      "jouet"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 466,
+    "word": "Shampoing",
+    "forbidden": [
+      "cheveux",
+      "douche",
+      "lavage",
+      "bouteille",
+      "salle de bain"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 467,
+    "word": "Shampoing en peluche",
+    "forbidden": [
+      "douche",
+      "lavage",
+      "bouteille",
+      "salle de bain",
+      "cheveux"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 468,
+    "word": "Shampoing au zoo",
+    "forbidden": [
+      "lavage",
+      "bouteille",
+      "salle de bain",
+      "cheveux",
+      "douche"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 469,
+    "word": "Shampoing en dessin animé",
+    "forbidden": [
+      "bouteille",
+      "salle de bain",
+      "cheveux",
+      "douche",
+      "lavage"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 470,
+    "word": "Shampoing dans un film",
+    "forbidden": [
+      "salle de bain",
+      "cheveux",
+      "douche",
+      "lavage",
+      "bouteille"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 471,
+    "word": "Parfum",
+    "forbidden": [
+      "odeur",
+      "flacon",
+      "sentir",
+      "cosmétique",
+      "fragrance"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 472,
+    "word": "Parfum en peluche",
+    "forbidden": [
+      "flacon",
+      "sentir",
+      "cosmétique",
+      "fragrance",
+      "odeur"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 473,
+    "word": "Parfum au zoo",
+    "forbidden": [
+      "sentir",
+      "cosmétique",
+      "fragrance",
+      "odeur",
+      "flacon"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 474,
+    "word": "Parfum en dessin animé",
+    "forbidden": [
+      "cosmétique",
+      "fragrance",
+      "odeur",
+      "flacon",
+      "sentir"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 475,
+    "word": "Parfum dans un film",
+    "forbidden": [
+      "fragrance",
+      "odeur",
+      "flacon",
+      "sentir",
+      "cosmétique"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 476,
+    "word": "Médecin",
+    "forbidden": [
+      "docteur",
+      "patient",
+      "hôpital",
+      "soigner",
+      "cabinet"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 477,
+    "word": "Médecin en peluche",
+    "forbidden": [
+      "patient",
+      "hôpital",
+      "soigner",
+      "cabinet",
+      "docteur"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 478,
+    "word": "Médecin au zoo",
+    "forbidden": [
+      "hôpital",
+      "soigner",
+      "cabinet",
+      "docteur",
+      "patient"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 479,
+    "word": "Médecin en dessin animé",
+    "forbidden": [
+      "soigner",
+      "cabinet",
+      "docteur",
+      "patient",
+      "hôpital"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 480,
+    "word": "Médecin dans un film",
+    "forbidden": [
+      "cabinet",
+      "docteur",
+      "patient",
+      "hôpital",
+      "soigner"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 481,
+    "word": "Dentiste",
+    "forbidden": [
+      "cabinet",
+      "soin",
+      "bouche",
+      "carie",
+      "jouet"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 482,
+    "word": "Dentiste en peluche",
+    "forbidden": [
+      "cabinet",
+      "soin",
+      "bouche",
+      "carie",
+      "jouet"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 483,
+    "word": "Dentiste au zoo",
+    "forbidden": [
+      "soin",
+      "bouche",
+      "carie",
+      "cabinet",
+      "jouet"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 484,
+    "word": "Dentiste en dessin animé",
+    "forbidden": [
+      "bouche",
+      "carie",
+      "cabinet",
+      "soin",
+      "jouet"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 485,
+    "word": "Dentiste dans un film",
+    "forbidden": [
+      "carie",
+      "cabinet",
+      "soin",
+      "bouche",
+      "jouet"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 486,
+    "word": "Police",
+    "forbidden": [
+      "agent",
+      "uniforme",
+      "loi",
+      "voiture",
+      "commissariat"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 487,
+    "word": "Police en peluche",
+    "forbidden": [
+      "uniforme",
+      "loi",
+      "voiture",
+      "commissariat",
+      "agent"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 488,
+    "word": "Police au zoo",
+    "forbidden": [
+      "loi",
+      "voiture",
+      "commissariat",
+      "agent",
+      "uniforme"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 489,
+    "word": "Police en dessin animé",
+    "forbidden": [
+      "voiture",
+      "commissariat",
+      "agent",
+      "uniforme",
+      "loi"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 490,
+    "word": "Police dans un film",
+    "forbidden": [
+      "commissariat",
+      "agent",
+      "uniforme",
+      "loi",
+      "voiture"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 491,
+    "word": "Pompier",
+    "forbidden": [
+      "feu",
+      "caserne",
+      "incendie",
+      "camion",
+      "secours"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 492,
+    "word": "Pompier en peluche",
+    "forbidden": [
+      "caserne",
+      "incendie",
+      "camion",
+      "secours",
+      "feu"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 493,
+    "word": "Pompier au zoo",
+    "forbidden": [
+      "incendie",
+      "camion",
+      "secours",
+      "feu",
+      "caserne"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 494,
+    "word": "Pompier en dessin animé",
+    "forbidden": [
+      "camion",
+      "secours",
+      "feu",
+      "caserne",
+      "incendie"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 495,
+    "word": "Pompier dans un film",
+    "forbidden": [
+      "secours",
+      "feu",
+      "caserne",
+      "incendie",
+      "camion"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 496,
+    "word": "Avocat",
+    "forbidden": [
+      "justice",
+      "tribunal",
+      "droit",
+      "client",
+      "procès"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 497,
+    "word": "Avocat en peluche",
+    "forbidden": [
+      "tribunal",
+      "droit",
+      "client",
+      "procès",
+      "justice"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 498,
+    "word": "Avocat au zoo",
+    "forbidden": [
+      "droit",
+      "client",
+      "procès",
+      "justice",
+      "tribunal"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 499,
+    "word": "Avocat en dessin animé",
+    "forbidden": [
+      "client",
+      "procès",
+      "justice",
+      "tribunal",
+      "droit"
+    ],
+    "category": "Général"
+  },
+  {
+    "id": 500,
+    "word": "Avocat dans un film",
+    "forbidden": [
+      "procès",
+      "justice",
+      "tribunal",
+      "droit",
+      "client"
+    ],
+    "category": "Général"
+  }
+]
