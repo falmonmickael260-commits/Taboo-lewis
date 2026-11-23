@@ -1,5 +1,6 @@
 import "./globals.css";
 import type { Metadata } from "next";
+import PlatformBridge from "@/components/PlatformBridge";
 
 export const metadata: Metadata = {
   title: "Taboo Live",
@@ -7,5 +8,5 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  return <html lang="fr"><body>{children}</body></html>;
+  return <html lang="fr"><body><PlatformBridge />{children}</body></html>;
 }
