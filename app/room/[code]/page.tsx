@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useParams } from "next/navigation";
-import { supabase } from "@/lib/supabase";
+import { supabase, playerToken } from "@/lib/supabase";
 import cards from "@/data/cards.json";
 import type { Card, Player, RoomState, Team } from "@/lib/types";
 
@@ -37,7 +37,7 @@ export default function RoomPage() {
   };
 
   const loadSnapshot = useCallback(async () => {
-    const { data, error: rpcError } = await supabase.rpc("get_room_snapshot", { p_code: code });
+    const { data, error: rpcError } = await supabase.rpc("taboo_get_room_snapshot", { p_code: code });
     if (rpcError || !data) { setError(rpcError?.message || "Room introuvable."); setLoading(false); return; }
     setState(snapshotToState(data)); setLoading(false);
   }, [code]);
@@ -46,24 +46,15 @@ export default function RoomPage() {
     (async () => {
       const saved = localStorage.getItem(`taboo-player-${code}`);
       if (saved) setMe(JSON.parse(saved) as SavedPlayer);
-      const { data: sessionData } = await supabase.auth.getSession();
-      if (!sessionData.session) {
-        const { error: authError } = await supabase.auth.signInAnonymously();
-        if (authError) { setError(authError.message); setLoading(false); return; }
-      }
       await loadSnapshot();
-      const { data } = await supabase.rpc("get_room_snapshot", { p_code: code });
-      if (!data) return;
-      const roomId = data.room.id as string;
-      if (channelRef.current) supabase.removeChannel(channelRef.current);
-      const channel = supabase.channel(`taboo:${roomId}`, { config:{ broadcast:{self:true} } });
-      channel.on("broadcast", { event:"refresh" }, async () => loadSnapshot());
-      channel.on("broadcast", { event:"toast" }, ({payload}) => { setToast(payload.text); window.setTimeout(()=>setToast(""),2200); });
-      await channel.subscribe();
-      channelRef.current = channel;
     })();
     return () => { if (channelRef.current) supabase.removeChannel(channelRef.current); };
   }, [code, loadSnapshot]);
+
+  useEffect(() => {
+    const interval = window.setInterval(() => loadSnapshot(), 1500);
+    return () => window.clearInterval(interval);
+  }, [loadSnapshot]);
 
   useEffect(() => {
     if (!state?.turnEndsAt || state.status !== "playing") return;
@@ -78,19 +69,11 @@ export default function RoomPage() {
   const isReferee = !!mePlayer && mePlayer.id === state?.refereeId;
   const card = useMemo<Card>(() => (cards.find(c => c.id === state?.currentCardId) ?? cards[0]) as Card, [state?.currentCardId]);
 
-  async function ensureAnon() {
-    const { data } = await supabase.auth.getSession();
-    if (!data.session) {
-      const { error: authError } = await supabase.auth.signInAnonymously();
-      if (authError) throw authError;
-    }
-  }
-
   async function joinRoom() {
     if (!joinName.trim()) return setToast("Entre ton prénom.");
     try {
-      await ensureAnon();
-      const { data, error:e } = await supabase.rpc("join_room", { p_code:code, p_name:joinName.trim(), p_team:joinTeam });
+
+      const { data, error:e } = await supabase.rpc("taboo_join_room", { p_code:code, p_name:joinName.trim(), p_team:joinTeam, p_token:playerToken() });
       if (e) throw e;
       const saved = { playerId:data.id, name:data.name, team:data.team } as SavedPlayer;
       localStorage.setItem(`taboo-player-${code}`, JSON.stringify(saved)); setMe(saved); await loadSnapshot();
@@ -100,14 +83,18 @@ export default function RoomPage() {
   async function changeTeam(team: Team) {
     if (!me || state?.status !== "lobby") return;
     try {
-      const { error:e } = await supabase.rpc("join_room", { p_code:code, p_name:me.name, p_team:team });
+      const { error:e } = await supabase.rpc("taboo_join_room", { p_code:code, p_name:me.name, p_team:team, p_token:playerToken() });
       if(e) throw e;
       const saved={...me,team}; setMe(saved); localStorage.setItem(`taboo-player-${code}`,JSON.stringify(saved)); await loadSnapshot();
     } catch(e:any) { setToast(e.message || "Impossible de changer d'équipe."); }
   }
 
   async function notify(text: string) {
-    if (!channelRef.current) return;
+    setToast(text);
+    window.setTimeout(() => setToast(""), 2200);
+    await loadSnapshot();
+    return;
+    // Ancien broadcast facultatif (remplace par synchronisation reguliere).
     await channelRef.current.send({type:"broadcast",event:"toast",payload:{text}});
     await channelRef.current.send({type:"broadcast",event:"refresh",payload:{}});
     await loadSnapshot();
@@ -115,20 +102,20 @@ export default function RoomPage() {
 
   async function startGame() {
     if (!isHost) return;
-    try { const {error:e}=await supabase.rpc("start_game",{p_code:code}); if(e) throw e; await notify("La partie commence !"); }
+    try { const {error:e}=await supabase.rpc("taboo_start_game",{p_code:code,p_token:playerToken()}); if(e) throw e; await notify("La partie commence !"); }
     catch(e:any){setToast(e.message||"Impossible de lancer.");}
   }
 
   async function gameAction(action: Action) {
     if ((action === "buzz" && !isReferee) || ((action === "found" || action === "pass") && !isGuesser)) return;
-    try { const {error:e}=await supabase.rpc("game_action",{p_code:code,p_action:action}); if(e) throw e; await notify(action==="found"?"🟢 Mot trouvé · +1":action==="buzz"?"🔴 BUZZ · 0 point":"🟡 Passé · 0 point"); }
+    try { const {error:e}=await supabase.rpc("taboo_game_action",{p_code:code,p_action:action,p_token:playerToken()}); if(e) throw e; await notify(action==="found"?"🟢 Mot trouvé · +1":action==="buzz"?"🔴 BUZZ · 0 point":"🟡 Passé · 0 point"); }
     catch(e:any){setToast(e.message||"Action refusée.");}
   }
 
   const endTurn = useCallback(async () => {
     if (endingTurn.current || !state || state.status !== "playing" || seconds > 0) return;
     endingTurn.current = true;
-    try { const {error:e}=await supabase.rpc("end_turn",{p_code:code}); if(e) throw e; await notify("⏱️ Nouveau tour !"); }
+    try { const {error:e}=await supabase.rpc("taboo_end_turn",{p_code:code,p_token:playerToken()}); if(e) throw e; await notify("⏱️ Nouveau tour !"); }
     catch(e:any){setToast(e.message||"Impossible de changer de tour.");}
     finally { window.setTimeout(()=>endingTurn.current=false,1200); }
   }, [state, seconds, code]);
