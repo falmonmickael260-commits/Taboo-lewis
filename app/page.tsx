@@ -3,6 +3,8 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { supabase, playerToken } from "@/lib/supabase";
+import { sendRoomToPlatform } from "@/components/PlatformBridge";
+import { useEffect } from "react";
 
 function makeCode() {
   const chars = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
@@ -14,6 +16,11 @@ export default function Home() {
   const [name, setName] = useState("");
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
+  useEffect(() => {
+    const update = () => {const n=sessionStorage.getItem("taboo-rg-name");if(n)setName(n);};
+    update(); window.addEventListener("taboo-rg-bootstrap",update);
+    return ()=>window.removeEventListener("taboo-rg-bootstrap",update);
+  },[]);
 
   async function createRoom() {
     if (!name.trim()) return setError("Entre ton prénom.");
@@ -39,6 +46,7 @@ export default function Home() {
       const player = (snapshot?.players ?? []).find((p: {name:string}) => p.name === name.trim());
       if (!player) throw new Error("Salon créé mais joueur non retrouvé.");
       localStorage.setItem(`taboo-player-${room.code}`, JSON.stringify({playerId:player.id,name:name.trim(),team:"A"}));
+      sendRoomToPlatform(room.code);
       router.push(`/room/${room.code}`);
     } catch(e:any) { setError(e.message || "Impossible de créer la partie."); }
     finally { setBusy(false); }
