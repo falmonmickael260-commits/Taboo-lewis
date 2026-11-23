@@ -22,7 +22,6 @@ export default function RoomPage() {
   const [toast, setToast] = useState("");
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(true);
-  const channelRef = useRef<ReturnType<typeof supabase.channel> | null>(null);
   const endingTurn = useRef(false);
 
   const snapshotToState = (snapshot: any): RoomState => {
@@ -48,7 +47,7 @@ export default function RoomPage() {
       if (saved) setMe(JSON.parse(saved) as SavedPlayer);
       await loadSnapshot();
     })();
-    return () => { if (channelRef.current) supabase.removeChannel(channelRef.current); };
+
   }, [code, loadSnapshot]);
 
   useEffect(() => {
@@ -92,11 +91,6 @@ export default function RoomPage() {
   async function notify(text: string) {
     setToast(text);
     window.setTimeout(() => setToast(""), 2200);
-    await loadSnapshot();
-    return;
-    // Ancien broadcast facultatif (remplace par synchronisation reguliere).
-    await channelRef.current.send({type:"broadcast",event:"toast",payload:{text}});
-    await channelRef.current.send({type:"broadcast",event:"refresh",payload:{}});
     await loadSnapshot();
   }
 
