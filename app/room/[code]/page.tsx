@@ -136,13 +136,13 @@ export default function RoomPage() {
     <section className="roomLayout"><aside className="sidebar"><div className="sideTitle"><h3>Joueurs</h3><small>{players.length}/8</small></div>
       <div className="teamList"><strong>🟦 ÉQUIPE A</strong>{players.filter(p=>p.team==="A").map(p=><div className="player" key={p.id}><i/> {p.name}{p.id===me.playerId&&" · toi"}{p.id===state.guesserId&&state.status==="playing"&&<em>DEVINE</em>}</div>)}</div>
       <div className="teamList"><strong>🟥 ÉQUIPE B</strong>{players.filter(p=>p.team==="B").map(p=><div className="player" key={p.id}><i/> {p.name}{p.id===me.playerId&&" · toi"}{p.id===state.refereeId&&state.status==="playing"&&<em>ARBITRE</em>}</div>)}</div>
-      {state.status==="lobby"&&<><div className="joinActions"><button className="small" onClick={()=>changeTeam("A")}>Équipe A</button><button className="small" onClick={()=>changeTeam("B")}>Équipe B</button></div>{isHost&&<button className="small" onClick={() => {
+      {state.status==="lobby"&&<><div className="joinActions"><button className="small" onClick={()=>changeTeam("A")}>Équipe A</button><button className="small" onClick={()=>changeTeam("B")}>Équipe B</button></div>{isHost&&<><button className="small" onClick={() => {
         const origin = sessionStorage.getItem("taboo-rg-origin");
         const launch = sessionStorage.getItem("taboo-rg-launch");
         if (origin && launch && window.parent !== window)
           window.parent.postMessage({v:1,game:"tabou",type:"rg:invite-request",launch},origin);
         else navigator.clipboard.writeText(window.location.href).then(()=>setToast("Lien copié !"));
-      }}>Inviter mes amis</button><button className="primary" onClick={startGame} disabled={!players.some(p=>p.team==="A")||!players.some(p=>p.team==="B")}>Lancer la partie</button>}</>}
+      }}>Inviter mes amis</button><button className="primary" onClick={startGame} disabled={!players.some(p=>p.team==="A")||!players.some(p=>p.team==="B")}>Lancer la partie</button></>}</>}
       {state.status==="playing"&&<div className="roleBox">{isGuesser?"🎤 Tu fais deviner":isReferee?"👁️ Tu es l’arbitre":"👥 Tu regardes"}</div>}
     </aside>
     <section className="board"><div className="turn">{state.status==="lobby"?"EN ATTENTE DES JOUEURS":`TOUR ${state.turnNumber} · ÉQUIPE ${state.currentTeam}`}</div>
