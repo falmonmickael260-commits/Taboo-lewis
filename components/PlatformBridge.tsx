@@ -20,6 +20,9 @@ export function sendRoomToPlatform(code: string) {
   if (!origin || !launch || !PLATFORM_ORIGINS.has(origin)) return;
   const saved = localStorage.getItem(`taboo-player-${code}`);
   if (!saved) return;
+  const sentKey = `taboo-rg-sent-${code}-${launch}`;
+  if (sessionStorage.getItem(sentKey) === playerToken()) return;
+  sessionStorage.setItem(sentKey, playerToken());
   window.parent.postMessage({
     v: 1, type: "rg:room", game: "tabou", launch,
     session: { code, token: playerToken() }
@@ -60,7 +63,7 @@ export default function PlatformBridge() {
       if (requested && /^[A-Z0-9]{4,6}$/.test(requested.toUpperCase())) {
         router.replace(`/room/${requested.toUpperCase()}`);
       } else {
-        const current = window.location.pathname.match(/^\/room\/([A-Z0-9]{6})$/i);
+        const current = window.location.pathname.match(/^\/room\/([A-Z0-9]{4,6})$/i);
         if (current) sendRoomToPlatform(current[1].toUpperCase());
       }
       window.dispatchEvent(new Event("taboo-rg-bootstrap"));
