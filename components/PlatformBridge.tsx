@@ -41,7 +41,7 @@ export default function PlatformBridge() {
         sessionStorage.setItem("taboo-rg-name", data.identity.username.slice(0,24));
       }
       const admission = data.admission?.session as Session | undefined;
-      if (admission?.code && /^[A-Z0-9]{6}$/.test(admission.code) &&
+      if (admission?.code && /^[A-Z0-9]{4,6}$/.test(admission.code) &&
           /^[a-f0-9]{64}$/.test(admission.token || "") &&
           typeof admission.playerId === "string") {
         localStorage.setItem("taboo-lewis-player-token", admission.token!);
@@ -57,7 +57,7 @@ export default function PlatformBridge() {
         return;
       }
       const requested = new URLSearchParams(window.location.search).get("rg_room");
-      if (requested && /^[A-Z0-9]{6}$/.test(requested.toUpperCase())) {
+      if (requested && /^[A-Z0-9]{4,6}$/.test(requested.toUpperCase())) {
         router.replace(`/room/${requested.toUpperCase()}`);
       } else {
         const current = window.location.pathname.match(/^\/room\/([A-Z0-9]{6})$/i);

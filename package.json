@@ -1,24 +1,32 @@
 {
-  "name": "taboo-realtime",
+  "name": "taboo-live",
   "version": "1.0.0",
   "private": true,
+  "description": "Jeu de Taboo multijoueur temps reel (Next.js 15 + Supabase Realtime) - by LewisHalmito",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run validate:cards && next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "validate:cards": "node scripts/validate-cards.mjs",
+    "build:schema": "node scripts/build-schema.mjs",
+    "check:supabase": "node scripts/check-supabase.mjs"
   },
   "dependencies": {
-    "@supabase/ssr": "^0.7.0",
-    "@supabase/supabase-js": "^2.57.0",
-    "next": "^15.5.0",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "@supabase/supabase-js": "^2.45.4",
+    "next": "^15.5.26",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@types/node": "^20.17.0",
-    "@types/react": "^19.1.0",
-    "@types/react-dom": "^19.1.0",
-    "typescript": "^5.8.3"
-  }
+    "@types/node": "^20.14.10",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "typescript": "^5.6.3",
+    "ws": "^8.21.3"
+  },
+  "author": "LewisHalmito"
 }

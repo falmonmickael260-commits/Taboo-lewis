@@ -1,10 +1,59 @@
 export type Team = "A" | "B";
 export type Role = "guesser" | "referee" | "player";
 export type RoomStatus = "lobby" | "playing" | "finished";
-export type Player = { id: string; name: string; team: Team; role: Role; connected: boolean; };
-export type Card = { id: number; word: string; forbidden: string[]; category: string; };
-export type RoomState = {
-  code: string; status: RoomStatus; currentTeam: Team; currentCardId: number | null; usedCardIds: number[];
-  scoreA: number; scoreB: number; turnEndsAt: number | null; turnNumber: number;
-  guesserId: string | null; refereeId: string | null; hostId: string | null; players: Player[];
-};
+export type GameActionName = "found" | "pass" | "buzz";
+
+export interface Room {
+  id: string;
+  code: string;
+  status: RoomStatus;
+  current_team: Team | null;
+  current_card_id: number | null;
+  used_card_ids: number[];
+  score_a: number;
+  score_b: number;
+  turn_ends_at: string | null;
+  turn_number: number;
+  guesser_id: string | null;
+  referee_id: string | null;
+  host_player_id: string | null;
+  last_action: GameActionName | null;
+  last_action_at: string | null;
+  created_at: string;
+}
+
+export interface Player {
+  id: string;
+  room_id: string | null;
+  name: string;
+  team: Team;
+  role: Role;
+  connected: boolean;
+  joined_at: string;
+  created_at: string;
+}
+
+export interface Card {
+  id: number;
+  word: string;
+  forbidden: string[];
+  category: string;
+}
+
+/**
+ * Charge utile renvoyee par toutes les RPC du jeu.
+ *
+ * `card` n'est rempli par le serveur QUE si l'appelant est le joueur qui fait
+ * deviner ou l'arbitre du tour. Pour tous les autres il vaut null : le mot ne
+ * transite jamais par leur navigateur.
+ */
+export interface GameState {
+  room: Room;
+  players: Player[];
+  card: Card | null;
+}
+
+export const MAX_PER_TEAM = 6;
+export const MAX_PLAYERS = MAX_PER_TEAM * 2;
+export const TURN_SECONDS = 90;
+export const MAX_TURNS = 12;
