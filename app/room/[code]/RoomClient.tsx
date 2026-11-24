@@ -95,7 +95,7 @@ export default function RoomClient({code}:{code:string}) {
   },[room?.status]);
   const remainingMs=useMemo(()=>{
     if(!room?.turn_ends_at||room.status!=="playing")return 0;
-    return Math.max(0,new Date(room.turn_ends_at).getTime()-now);
+    return Math.max(0,new Date(room.turn_ends_at).getTime()-Math.max(now,Date.now()));
   },[room?.turn_ends_at,room?.status,now]);
   const expired=remainingMs<=0;
   useEffect(()=>{
