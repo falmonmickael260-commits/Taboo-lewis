@@ -36,7 +36,7 @@ begin
    and v_uid in (v_room.guesser_id,v_room.referee_id) then
    select to_jsonb(c) into v_card from public.taboo_cards c where c.id=v_room.current_card_id;
  end if;
- return jsonb_build_object('room',to_jsonb(v_room),'players',v_players,'card',v_card);
+ return jsonb_build_object('room',to_jsonb(v_room),'players',v_players,'card',v_card,'viewer_id',v_uid);
 end $$;
 
 create or replace function public.taboo_ui_next_card(p_room_id uuid)
@@ -258,3 +258,66 @@ grant execute on function public.taboo_ui_game_action(text,text,text) to anon,au
 grant execute on function public.taboo_ui_end_turn(text,text) to anon,authenticated;
 grant execute on function public.taboo_ui_restart_game(text,text) to anon,authenticated;
 grant execute on function public.taboo_ui_leave_room(text,text) to anon,authenticated;
+
+-- Match identifiers make repeated games with the same room code independently count.
+create or replace function public.taboo_save_completed_result()
+returns trigger language plpgsql security definer set search_path = ''
+as $$
+declare v_players jsonb;
+begin
+ if old.status<>'playing' or new.status<>'finished' then return new; end if;
+ select jsonb_agg(jsonb_build_object(
+ 'user_id',p.platform_user_id,
+ 'guest_label',case when p.platform_user_id is null then p.name else null end,
+ 'outcome',case when new.score_a=new.score_b then 'draw'
+   when (new.score_a>new.score_b and p.team='A') or (new.score_b>new.score_a and p.team='B') then 'win'
+   else 'loss' end,
+ 'score',case when p.team='A' then new.score_a else new.score_b end,
+ 'position',case when new.score_a=new.score_b then 1
+   when (new.score_a>new.score_b and p.team='A') or (new.score_b>new.score_a and p.team='B') then 1 else 2 end
+ ) order by p.joined_at,p.id) into v_players
+ from public.taboo_players p where p.room_id=new.id;
+ if v_players is null then return new; end if;
+ perform public.record_game_result('tabou','tabou:'||new.match_id::text,new.code,
+  jsonb_build_object('game','tabou','room',new.code,'instance',new.id,'match',new.match_id,
+     'scoreA',new.score_a,'scoreB',new.score_b,'turns',new.turn_number,'finishedAt',now()),
+  v_players);
+ return new;
+end $$;
+revoke all on function public.taboo_save_completed_result() from public,anon,authenticated;
+
+-- Existing Revanche invite flow: allow 6 players per team.
+create or replace function public.taboo_platform_admit(
+ p_code text,p_instance uuid,p_inviter_id uuid,p_inviter_token text,
+ p_user_id uuid,p_name text,p_token text
+) returns jsonb language plpgsql security definer set search_path=''
+as $$
+declare v_room public.taboo_rooms%rowtype;v_team text;v_a int;v_b int;v_new uuid;
+begin
+ if p_inviter_token is null or p_inviter_token !~ '^[a-f0-9]{64}$'
+  or p_token is null or p_token !~ '^[a-f0-9]{64}$' then raise exception 'Session invalide.'; end if;
+ if p_user_id is null or p_user_id=p_inviter_id
+  or not exists(select 1 from public.profiles where id=p_user_id)
+  or not exists(select 1 from public.profiles where id=p_inviter_id)
+  then raise exception 'Profil invalide.'; end if;
+ select * into v_room from public.taboo_rooms where code=upper(trim(p_code)) and id=p_instance for update;
+ if v_room.id is null or v_room.status<>'lobby' then raise exception 'Salon ferme.'; end if;
+ if not exists(select 1 from public.taboo_players where room_id=v_room.id
+  and platform_user_id=p_inviter_id
+  and token_hash=encode(sha256(decode(p_inviter_token,'hex')),'hex'))
+ then raise exception 'Joueur invitant non verifie.'; end if;
+ if exists(select 1 from public.taboo_players where room_id=v_room.id and platform_user_id=p_user_id)
+ then raise exception 'Compte deja inscrit dans ce salon.'; end if;
+ select count(*) filter(where team='A'),count(*) filter(where team='B')
+  into v_a,v_b from public.taboo_players where room_id=v_room.id;
+ if v_a>=6 and v_b>=6 then raise exception 'Salon complet.'; end if;
+ v_team:=case when v_a>=6 then 'B' when v_b>=6 then 'A'
+    when v_a<=v_b then 'A' else 'B' end;
+ insert into public.taboo_players(room_id,token_hash,name,team,platform_user_id,joined_at)
+ values(v_room.id,encode(sha256(decode(p_token,'hex')),'hex'),
+  left(trim(coalesce(p_name,'')),20),v_team,p_user_id,now())
+ returning id into v_new;
+ return jsonb_build_object('code',v_room.code,'token',p_token,'playerId',v_new);
+end $$;
+revoke all on function public.taboo_platform_admit(text,uuid,uuid,text,uuid,text,text) from public,anon,authenticated;
+grant execute on function public.taboo_platform_admit(text,uuid,uuid,text,uuid,text,text) to service_role;
